@@ -1,10 +1,16 @@
 #include <iostream>
+#include "WordPair.h"
 
 int main() {
 
-	//const char* arr[3][2] = { {"hello", "bonjure"}, {"thank you", "merci"}, {"please", "sil'vu ple"} };
+	char w1[20], w2[20];
 
-	//std::cout << *arr[1];
+	std::cin >> w1 >> w2;
+
+	WordPair greeting(w1, w2);
+
+	std::cout << greeting.getW1() << std::endl;
+	std::cout << greeting.getW2() << std::endl;
 
 	return 0;
 }
