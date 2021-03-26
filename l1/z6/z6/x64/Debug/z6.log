@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Tsets0\my-stuff\GitHub\cpp-oop\l1\z6\z6\main.cpp(13,65): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Tsets0\my-stuff\GitHub\cpp-oop\l1\z6\z6\main.cpp(18,20): warning C4305: 'argument': truncation from 'double' to 'float'
+  z6.vcxproj -> C:\Users\Tsets0\my-stuff\GitHub\cpp-oop\l1\z6\x64\Debug\z6.exe
