@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="z1" targetName="z1" />
+      <config projectName="z5" targetName="z5" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ebbeb6a-e256-4f61-ab7b-29688a77be76" name="Default Changelist" comment="" />
+    <list default="true" id="6a6a3d0f-a1cb-4695-9e53-5f128bb2ec3d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +32,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProjectId" id="1qRSZZPybEfOuNS1FKaMeFWdv0D" />
+  <component name="ProjectId" id="1qTtCMcqBRmJeuVgYlMLwRHRuvs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,7 +45,12 @@
     <property name="cf.first.check.clang-format" value="false" />
   </component>
   <component name="RunManager">
-    <configuration name="z1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="z1" TARGET_NAME="z1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="z1" RUN_TARGET_NAME="z1">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="z5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="z5" TARGET_NAME="z5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="z5" RUN_TARGET_NAME="z5">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -59,17 +64,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4ebbeb6a-e256-4f61-ab7b-29688a77be76" name="Default Changelist" comment="" />
-      <created>1617040965543</created>
+      <changelist id="6a6a3d0f-a1cb-4695-9e53-5f128bb2ec3d" name="Default Changelist" comment="" />
+      <created>1617115279282</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1617040965543</updated>
-      <workItem from="1617040968491" duration="3820000" />
-      <workItem from="1617115174159" duration="103000" />
+      <updated>1617115279282</updated>
+      <workItem from="1617115281200" duration="4187000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
