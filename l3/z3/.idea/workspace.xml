@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="z5" targetName="z5" />
+      <config projectName="z3" targetName="z3" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,13 +11,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a6a3d0f-a1cb-4695-9e53-5f128bb2ec3d" name="Default Changelist" comment="" />
+    <list default="true" id="ddc70e66-510a-49c6-97d1-1c66a5dbc68a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
@@ -32,7 +33,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProjectId" id="1qTtCMcqBRmJeuVgYlMLwRHRuvs" />
+  <component name="ProjectId" id="1qmmVCqedkoee24UCnSgbsCjkxw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,7 +51,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="z5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="z5" TARGET_NAME="z5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="z5" RUN_TARGET_NAME="z5">
+    <configuration name="z3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="z3" TARGET_NAME="z3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="z3" RUN_TARGET_NAME="z3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -64,13 +65,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6a6a3d0f-a1cb-4695-9e53-5f128bb2ec3d" name="Default Changelist" comment="" />
-      <created>1617115279282</created>
+      <changelist id="ddc70e66-510a-49c6-97d1-1c66a5dbc68a" name="Default Changelist" comment="" />
+      <created>1617693160752</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1617115279282</updated>
-      <workItem from="1617115281200" duration="4187000" />
-      <workItem from="1617693088810" duration="70000" />
+      <updated>1617693160752</updated>
+      <workItem from="1617693162451" duration="3770000" />
+      <workItem from="1617770566643" duration="5151000" />
     </task>
     <servers />
   </component>
