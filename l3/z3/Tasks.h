@@ -33,6 +33,21 @@ private:
 
 };
 
+class RangeVar{
+private:
+    double _value;
+    char *_name;
+    std::ostream& _out;
+    double _min, _max;
+
+public:
+    RangeVar(double value = 0, const char *name = "defaultName", std::ostream& = std::cout);
+    RangeVar& operator=(const RangeVar& rhs);
+    ~RangeVar();
+    operator double ();
+
+};
+
 class AProg {
 private:
     double _init, _step;

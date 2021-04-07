@@ -42,6 +42,36 @@ CountVar::operator double(){
     return _value;
 }
 
+
+RangeVar::RangeVar(double value, const char *name, std::ostream& out):_value(value), _name(new char[strlen(name)+1]), _out(out){
+    strcpy(_name, name);
+    _min = value;
+    _max = value;
+}
+
+RangeVar::~RangeVar(){
+    _out << _name << "had min, max = " << _min << ", " << _max << "\n";
+
+    if(_name!= nullptr){
+        delete[] _name;
+        _name = nullptr;
+    }
+}
+
+RangeVar& RangeVar::operator=(const RangeVar& rhs){
+    if(this!=&rhs){
+        _value = rhs._value;
+        if(rhs._value > _max){ _max = rhs._value; }
+        if(rhs._value < _min){ _min = rhs._value; }
+    }
+    return *this;
+}
+
+RangeVar::operator double (){
+ return _value;
+}
+
+
 AProg::AProg(double init, double step):_init(init), _step(step){
 
 }
