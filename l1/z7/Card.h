@@ -17,7 +17,10 @@ private:
 public:
 
     Card(const char* bookName = "Null", const char* author = "Null", unsigned count = 0);
+    Card(const Card& rhs);
     ~Card();
+
+    Card& operator=(const Card& rhs);
 
     std::ostream& ins(std::ostream& out) const;
     void print() const;

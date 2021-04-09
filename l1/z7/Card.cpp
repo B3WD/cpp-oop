@@ -34,6 +34,33 @@ std::ostream &Card::ins(std::ostream &out) const {
     return out;
 }
 
+Card::Card(const Card & rhs) {
+    _bookName = new char[strlen(rhs._bookName)+1];
+    _author = new char[strlen(rhs._author)+1];
+
+    strcpy(_bookName, rhs._bookName);
+    strcpy(_author, rhs._author);
+
+    _count = rhs._count;
+}
+
+Card& Card::operator=(const Card &rhs) {
+    if(this != &rhs){
+        delete[] _bookName;
+        delete[] _author;
+
+        _bookName = new char[strlen(rhs._bookName)+1];
+        _author = new char[strlen(rhs._author)+1];
+
+        strcpy(_bookName, rhs._bookName);
+        strcpy(_author, rhs._author);
+
+        _count = rhs._count;
+    }
+
+    return *this;
+}
+
 std::ostream& operator<<(std::ostream& lhs, Card& rhs){
     return rhs.ins(lhs);
 }
