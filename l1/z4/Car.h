@@ -21,8 +21,10 @@ public:
     void setBrand(const char * brand = "Null");
     inline char* getbrand() const { return _brand; };
 
+    std::ostream& ins(std::ostream& out) const;
     void print() const;
 };
 
+std::ostream& operator<<(std::ostream& lhs, const Car& rhs);
 
 #endif //Z4_CAR_H

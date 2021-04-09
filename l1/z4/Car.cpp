@@ -54,3 +54,16 @@ void Car::setBrand(const char * brand){
     _brand = new char[strlen(brand)+1];
     strcpy(_brand, brand);
 }
+
+std::ostream &Car::ins(std::ostream &out) const {
+    out << "Brand: " << _brand << "\nDoors: " << _doors << "\nHP: " << _hp << "\nYear: " << _year << "\nPrice: " << _price << "\n";
+    return out;
+}
+
+Car::operator double() {
+    return _hp;
+}
+
+std::ostream& operator<<(std::ostream& lhs, const Car& rhs){
+    return rhs.ins(lhs);
+}
