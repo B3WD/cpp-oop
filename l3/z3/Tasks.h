@@ -25,6 +25,7 @@ public:
     CountVar& operator=(const CountVar& rhs);
 
     operator double ();
+
 private:
     int _usedCount, _assignedCount;
     double _value;
