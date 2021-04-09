@@ -3,28 +3,37 @@
 //
 
 #include "Card.h"
-#include <iostream>
 
-Card::Card() : bookName(""), author(""), count(0)
+Card::Card(const char* bookName, const char* author, unsigned count)
+: _bookName(new char[strlen(bookName) + 1]), _author(new char[strlen(author) + 1]), _count(count)
 {
-    std::cout << "Default constructor was called." << std::endl;
-}
-
-Card::Card(const char* bookName, const char* author, unsigned count) : bookName(bookName), author(author), count(count)
-{
-    std::cout << "Param constructor was called." << std::endl;
+    strcpy(_bookName, bookName);
+    strcpy(_author, author);
 }
 
 Card::~Card()
 {
-    std::cout << "Deconstructor was called." << std::endl;
+    delete[] _bookName;
+    _bookName = nullptr;
+    delete[] _author;
+    _author = nullptr;
 }
 
-int Card::print() const
+void Card::print() const
 {
-    std::cout << "Book name: " << bookName << std::endl;
-    std::cout << "Author: " << author << std::endl;
-    std::cout << "Copies left: " << count << std::endl;
+    std::cout << "Book name: " << _bookName << std::endl;
+    std::cout << "Author: " << _author << std::endl;
+    std::cout << "Copies left: " << _count << std::endl;
+}
 
-    return 0;
+std::ostream &Card::ins(std::ostream &out) const {
+    out << "Book name: " << _bookName << std::endl;
+    out << "Author: " << _author << std::endl;
+    out << "Copies left: " << _count << std::endl;
+
+    return out;
+}
+
+std::ostream& operator<<(std::ostream& lhs, Card& rhs){
+    return rhs.ins(lhs);
 }

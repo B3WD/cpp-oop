@@ -1,13 +1,11 @@
 #include "Card.h"
+#include <iostream>
 
 int main() {
 
-    const char* bookName = "C++ Programming book";
-    const char* author = "M. Raykova";
+    Card cppBook("C++ Programming book", "M. Raykova", 27);
 
-    Card cppBook(bookName, author, 27);
-
-    cppBook.print();
+    std::cout << cppBook;
 
     return 0;
 }

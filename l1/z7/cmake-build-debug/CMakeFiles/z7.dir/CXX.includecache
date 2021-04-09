@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l1/z7/Card.cpp
+Card.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l1/z7/Card.h
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l1/z7/Card.h
+iostream
+-
+cstring
+-
+

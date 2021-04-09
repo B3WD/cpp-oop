@@ -5,20 +5,24 @@
 #ifndef Z7_CARD_H
 #define Z7_CARD_H
 
+#include <iostream>
+#include <cstring>
 
 class Card {
 private:
-    const char* bookName;
-    const char* author;
-    unsigned count;
+    char* _bookName;
+    char* _author;
+    unsigned _count;
 
 public:
 
-    Card();
-    Card(const char*, const char*, unsigned);
+    Card(const char* bookName = "Null", const char* author = "Null", unsigned count = 0);
     ~Card();
-    int print() const;
+
+    std::ostream& ins(std::ostream& out) const;
+    void print() const;
 };
 
+std::ostream& operator<<(std::ostream& lhs, Card& rhs);
 
 #endif //Z7_CARD_H
