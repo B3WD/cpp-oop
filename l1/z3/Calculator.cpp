@@ -29,27 +29,48 @@ std::ostream& Calculator::ins(std::ostream& out) const {
 }
 
 int Calculator::calcExp() const {
-//    int res = 0;
-//
-//    if(isValid(_expression)){
-//        int a, b, len_a, len_b, last_pos = 0;
-//        char op;
-//        while(a != 0){
-//            a = atoi(_expression+last_pos);
-//            len_a = std::to_string(a).length();
-//
-//            last_pos += len_a;
-//            op = _expression[last_pos];
-//
-//            a = atoi(_expression+last_pos);
-//            len_a = std::to_string(a).length();
-//
-//        }
-//
-//    }
-//
-//    return res;
-    return 0;
+    int res = 000;
+
+    if(isValid(_expression)){
+        int numA, numB, countDel;
+        char op;
+
+        std::string c = _expression;
+
+        numA = atoi(c.c_str());
+        countDel = std::to_string(numA).length();
+
+        while(c[countDel] != '\0'){
+
+            op = c[countDel];
+            countDel++;
+            c.replace(0, countDel, "");
+            numB = atoi(c.c_str());
+
+            countDel = std::to_string(numB).length();
+            c.replace(0, countDel, "");
+
+            switch (op) {
+                case '-':
+                    res = numA - numB;
+                    break;
+                case '+':
+                    res = numA + numB;
+                    break;
+                case '*':
+                    res = numA * numB;
+                    break;
+                case '/':
+                    res = numA / numB;
+                    break;
+            }
+
+            numA = res;
+            countDel = 0;
+        }
+    }
+
+    return res;
 }
 
 Calculator &Calculator::operator=(const Calculator &rhs) {
