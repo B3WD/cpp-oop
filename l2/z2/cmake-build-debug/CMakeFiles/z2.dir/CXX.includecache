@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l2/z2/Money.cpp
+Money.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l2/z2/Money.h
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l2/z2/Money.h
+iostream
+-
+

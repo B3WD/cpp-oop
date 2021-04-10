@@ -5,10 +5,31 @@
 #ifndef Z2_MONEY_H
 #define Z2_MONEY_H
 
+#include <iostream>
 
 class Money {
+private:
+    int _lv;
+    int _stot;
 
+public:
+    Money(int lv = 0, int stot = 0);
+    ~Money();
+
+    bool operator>(const Money& rhs) const;
+    Money& operator+(const Money &);
+    Money& operator-(const Money &);
+    Money& operator*(int);
+    Money& operator/(int);
+    double operator%(double percent) const;
+
+    std::ostream& ins(std::ostream& out) const;
+    std::istream& ext(std::istream& in);
+
+    int toStot() const;
 };
 
+std::ostream& operator<<(std::ostream& out, const Money& rhs);
+std::istream& operator>>(std::istream& in, Money& rhs);
 
 #endif //Z2_MONEY_H
