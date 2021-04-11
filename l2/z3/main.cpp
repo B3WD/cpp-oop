@@ -3,9 +3,9 @@
 
 int main() {
 
-    BigInteger a("123456789"), b("987654321"); 
+    BigInteger a("123456789"), b("987654321");
 
-    BigInteger c = a * a - b;
+    BigInteger c = a - 123456787;
 
     std::cout << c * a + b;
 

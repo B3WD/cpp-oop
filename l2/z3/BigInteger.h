@@ -11,10 +11,13 @@
 class BigInteger {
 private:
     char* _numString;
-    long long _num;
+    long long _num; // remove this to simplify the code.
+                    // Learn to not add unnecessary things
+                    // that complicate the code.
 
 public:
     BigInteger(const char* numString = "0");
+    BigInteger(int a);
     BigInteger(const BigInteger&);
     BigInteger& operator=(const BigInteger& rhs);
     ~BigInteger();

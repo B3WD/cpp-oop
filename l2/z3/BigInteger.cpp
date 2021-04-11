@@ -48,6 +48,13 @@ BigInteger& BigInteger::operator=(const BigInteger &rhs) {
     return *this;
 }
 
+BigInteger::BigInteger(int a) {
+    _num = a;
+    const char* numStr = std::to_string(_num).c_str();
+    _numString = new char[strlen(numStr)+1];
+    strcpy(_numString, numStr);
+}
+
 std::ostream& operator<<(std::ostream& out, const BigInteger& rhs){
     return rhs.ins(out);
 }
