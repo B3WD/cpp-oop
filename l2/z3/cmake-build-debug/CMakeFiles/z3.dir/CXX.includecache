@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l2/z3/BigInteger.cpp
+BigInteger.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l2/z3/BigInteger.h
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l2/z3/BigInteger.h
+iostream
+-
+cstring
+-
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l2/z3/main.cpp
+iostream
+-
+BigInteger.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l2/z3/BigInteger.h
+
