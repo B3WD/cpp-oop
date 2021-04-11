@@ -15,36 +15,28 @@ bool Money::operator>(const Money& rhs) const{
     return toStot() > rhs.toStot();
 }
 
-Money& Money::operator+(const Money & rhs){
+Money Money::operator+(const Money & rhs) const{
     int newTotal = toStot() + rhs.toStot();
-    _lv = newTotal / 100;
-    _stot = newTotal - (_lv * 100);
-
-    return *this;
+    int newLv = newTotal / 100;
+    return Money(newLv, newTotal - (newLv * 100));
 }
 
-Money& Money::operator-(const Money & rhs){
+Money Money::operator-(const Money & rhs) const{
     int newTotal = toStot() - rhs.toStot();
-    _lv = newTotal / 100;
-    _stot = newTotal - (_lv * 100);
-
-    return *this;
+    int newLv = newTotal / 100;
+    return Money(newLv, newTotal - (newLv * 100));
 }
 
-Money& Money::operator*(int rhs){
+Money Money::operator*(int rhs) const{
     int newTotal = toStot() * rhs;
-    _lv = newTotal / 100;
-    _stot = newTotal - (_lv * 100);
-
-    return *this;
+    int newLv = newTotal / 100;
+    return Money(newLv, newTotal - (newLv * 100));
 }
 
-Money& Money::operator/(int rhs){
+Money Money::operator/(int rhs) const{
     int newTotal = toStot() / rhs;
-    _lv = newTotal / 100;
-    _stot = newTotal - (_lv * 100);
-
-    return *this;
+    int newLv = newTotal / 100;
+    return Money(newLv, newTotal - (newLv * 100));
 }
 
 std::istream& Money::ext(std::istream& in){

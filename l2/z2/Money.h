@@ -17,10 +17,10 @@ public:
     ~Money();
 
     bool operator>(const Money& rhs) const;
-    Money& operator+(const Money &);
-    Money& operator-(const Money &);
-    Money& operator*(int);
-    Money& operator/(int);
+    Money operator+(const Money &) const;
+    Money operator-(const Money &) const;
+    Money operator*(int) const;
+    Money operator/(int) const;
     double operator%(double percent) const;
 
     std::ostream& ins(std::ostream& out) const;
