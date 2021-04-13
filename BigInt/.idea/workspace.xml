@@ -15,16 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10ebf4b5-af1c-46fd-9473-fb6976c27d22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../z2/Money.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../z2/Money.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../z2/Money.h" beforeDir="false" afterPath="$PROJECT_DIR$/../z2/Money.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../z2/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../z2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../z2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../z2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger.h" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/z3.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/z3.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,19 +56,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../z2" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="z3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="z3" TARGET_NAME="z3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="z3" RUN_TARGET_NAME="z3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -89,6 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1618140684937</updated>
       <workItem from="1618140687888" duration="6320000" />
+      <workItem from="1618156196156" duration="593000" />
+      <workItem from="1618290148684" duration="94000" />
     </task>
     <servers />
   </component>
