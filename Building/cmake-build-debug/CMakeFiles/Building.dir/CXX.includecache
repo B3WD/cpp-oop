@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Building/Building.cpp
+Building.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Building/Building.h
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Building/Building.h
+iostream
+-
+cstring
+-
+
