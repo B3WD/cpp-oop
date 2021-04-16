@@ -7,10 +7,20 @@
 #IncludeRegexTransform: 
 
 C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/Car.h
-
-C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/main.cpp
+cstring
+-
 iostream
 -
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/CarDealer.cpp
+CarDealer.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/CarDealer.h
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/CarDealer.h
 Car.h
 C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/Car.h
+iostream
+-
+cstring
+-
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/z4.dir/Car.cpp.obj"
+  "CMakeFiles/z4.dir/CarDealer.cpp.obj"
   "CMakeFiles/z4.dir/main.cpp.obj"
   "libz4.dll.a"
   "z4.exe"

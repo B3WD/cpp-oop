@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/Car.cpp" "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/cmake-build-debug/CMakeFiles/z4.dir/Car.cpp.obj"
+  "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/CarDealer.cpp" "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/cmake-build-debug/CMakeFiles/z4.dir/CarDealer.cpp.obj"
   "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/main.cpp" "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/cmake-build-debug/CMakeFiles/z4.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

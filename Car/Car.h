@@ -5,6 +5,8 @@
 #ifndef Z4_CAR_H
 #define Z4_CAR_H
 
+#include <cstring>
+#include <iostream>
 
 class Car {
 private:

@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Car.h"
+#include "CarDealer.h"
 
 int main() {
 
@@ -15,7 +16,15 @@ int main() {
     std::cout << c1%5;
 
     Car c4("a", 1, 1, 2001, 5000);
-    std::cout << (c4 <= Car("b", 1, 1, 2001, 5000));
+    std::cout << (c4 <= Car("b", 1, 1, 2001, 5000)) << std::endl;
+
+    Car carsCeco[3] = {c1, c2, c3};
+    CarDealer cecArDlr("Ceco", 3, carsCeco);
+
+    Car carsIvan[1] = {c2};
+    cecArDlr = CarDealer("Ivan", 1, carsIvan);
+
+    std::cout << cecArDlr;
 
     return 0;
 }

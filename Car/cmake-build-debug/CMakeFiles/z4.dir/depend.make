@@ -4,6 +4,11 @@
 CMakeFiles/z4.dir/Car.cpp.obj: ../Car.cpp
 CMakeFiles/z4.dir/Car.cpp.obj: ../Car.h
 
+CMakeFiles/z4.dir/CarDealer.cpp.obj: ../Car.h
+CMakeFiles/z4.dir/CarDealer.cpp.obj: ../CarDealer.cpp
+CMakeFiles/z4.dir/CarDealer.cpp.obj: ../CarDealer.h
+
 CMakeFiles/z4.dir/main.cpp.obj: ../Car.h
+CMakeFiles/z4.dir/main.cpp.obj: ../CarDealer.h
 CMakeFiles/z4.dir/main.cpp.obj: ../main.cpp
 

@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/Car.h">
 			<Option target="z4"/>
 		</Unit>
+		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/CarDealer.cpp">
+			<Option target="z4"/>
+		</Unit>
+		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/CarDealer.h">
+			<Option target="z4"/>
+		</Unit>
 		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/main.cpp">
 			<Option target="z4"/>
 		</Unit>

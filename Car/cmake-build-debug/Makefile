@@ -168,6 +168,33 @@ Car.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\z4.dir\build.make CMakeFiles/z4.dir/Car.cpp.s
 .PHONY : Car.cpp.s
 
+CarDealer.obj: CarDealer.cpp.obj
+
+.PHONY : CarDealer.obj
+
+# target to build an object file
+CarDealer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\z4.dir\build.make CMakeFiles/z4.dir/CarDealer.cpp.obj
+.PHONY : CarDealer.cpp.obj
+
+CarDealer.i: CarDealer.cpp.i
+
+.PHONY : CarDealer.i
+
+# target to preprocess a source file
+CarDealer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\z4.dir\build.make CMakeFiles/z4.dir/CarDealer.cpp.i
+.PHONY : CarDealer.cpp.i
+
+CarDealer.s: CarDealer.cpp.s
+
+.PHONY : CarDealer.s
+
+# target to generate assembly for a file
+CarDealer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\z4.dir\build.make CMakeFiles/z4.dir/CarDealer.cpp.s
+.PHONY : CarDealer.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -207,6 +234,9 @@ help:
 	@echo ... Car.obj
 	@echo ... Car.i
 	@echo ... Car.s
+	@echo ... CarDealer.obj
+	@echo ... CarDealer.i
+	@echo ... CarDealer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

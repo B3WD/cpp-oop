@@ -2,8 +2,6 @@
 // Created by tzvet on 7.4.2021 г..
 //
 
-#include <iostream>
-#include <cstring>
 #include "Car.h"
 
 Car::Car(const char* brand, int doors, int hp, int year, double price)
@@ -130,6 +128,6 @@ std::ostream& operator<<(std::ostream& lhs, const Car& rhs){
     return rhs.ins(lhs);
 }
 
-Car operator+(int lhs, const Car& rhs){
-    return rhs+lhs;
+Car operator+(int lhs, const Car& rhs) {
+    return rhs + lhs;
 }
