@@ -6,19 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l1/z4/Car.cpp
-iostream
--
-cstring
--
-Car.h
-C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l1/z4/Car.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/Car.h
 
-C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l1/z4/Car.h
-
-C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l1/z4/main.cpp
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/main.cpp
 iostream
 -
 Car.h
-C:/Users/tzvet/my_stuff/GitHub/cpp-oop/l1/z4/Car.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Car/Car.h
 

@@ -1,0 +1,3 @@
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Constructors/cmake-build-debug/CMakeFiles/Constructors.dir
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Constructors/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Constructors/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -21,10 +21,25 @@ public:
     void setBrand(const char * brand = "Null");
     inline char* getbrand() const { return _brand; };
 
+    Car operator+(int rhs) const;
+    Car& operator+=(int rhs);
+    Car operator++(int);
+    Car& operator++();
+    Car& operator*=(int rhs);
+    Car operator%(int rhs) const;
+    bool operator>(const Car& rhs) const;
+    bool operator>=(const Car& rhs) const;
+    bool operator==(const Car& rhs) const;
+    bool operator<(const Car& rhs) const;
+    bool operator<=(const Car& rhs) const;
+
+    operator double ();
+
     std::ostream& ins(std::ostream& out) const;
     void print() const;
 };
 
 std::ostream& operator<<(std::ostream& lhs, const Car& rhs);
+Car operator+(int lhs, const Car& rhs);
 
 #endif //Z4_CAR_H

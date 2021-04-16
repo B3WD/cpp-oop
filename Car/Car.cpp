@@ -60,10 +60,76 @@ std::ostream &Car::ins(std::ostream &out) const {
     return out;
 }
 
+Car Car::operator+(int rhs) const {
+    return Car(_brand, _doors, _hp+rhs, _year, _price);
+}
+
+Car& Car::operator+=(int rhs) {
+    _hp += rhs;
+    return *this;
+}
+
+Car Car::operator++(int) {
+    Car oldCar = *this;
+    _hp += 150;
+    return oldCar;
+}
+
+Car& Car::operator++() {
+    _hp += 150;
+    return *this;
+}
+
+Car& Car::operator*=(int rhs) {
+    _price *= rhs;
+    return *this;
+}
+
 Car::operator double() {
-    return _hp;
+    return _price;
+}
+
+Car Car::operator%(int rhs) const{
+    return Car(_brand, _doors, _hp, _year, _price - (_price*0.1)*rhs);
+}
+
+bool Car::operator>(const Car& rhs) const {
+    bool flag = false;
+    if(_price > rhs._price || (_price == rhs._price && _year < rhs._year)) {
+        flag = true;
+    }
+
+    return flag;
+}
+
+bool Car::operator>=(const Car &rhs) const {
+    bool flag = false;
+    if(!(rhs>*this)){
+        flag = true;
+    }
+    return flag;
+}
+
+bool Car::operator==(const Car &rhs) const {
+    bool flag = false;
+    if(!strcmp(_brand, rhs._brand) && _hp == rhs._hp && _year == rhs._year && _price == rhs._price){
+        flag = true;
+    }
+    return flag;
+}
+
+bool Car::operator<(const Car &rhs) const {
+    return rhs>*this;
+}
+
+bool Car::operator<=(const Car &rhs) const {
+    return rhs>=*this;
 }
 
 std::ostream& operator<<(std::ostream& lhs, const Car& rhs){
     return rhs.ins(lhs);
+}
+
+Car operator+(int lhs, const Car& rhs){
+    return rhs+lhs;
 }

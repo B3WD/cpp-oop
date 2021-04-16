@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Constructors/Constructors.cpp
+Constructors.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Constructors/Constructors.h
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Constructors/Constructors.h
+cstdlib
+-
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Constructors/main.cpp
+iostream
+-
+Constructors.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Constructors/Constructors.h
+
