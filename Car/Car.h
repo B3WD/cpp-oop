@@ -42,6 +42,7 @@ public:
 };
 
 std::ostream& operator<<(std::ostream& lhs, const Car& rhs);
+std::ostream& operator<<(std::ostream& lhs, const Car* rhs);
 Car operator+(int lhs, const Car& rhs);
 
 #endif //Z4_CAR_H

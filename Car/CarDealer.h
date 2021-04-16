@@ -21,6 +21,7 @@ public:
     ~CarDealer();
     CarDealer& operator=(const CarDealer& rhs);
 
+    CarDealer& operator+(const Car& rhs);
     Car operator[](int i) const;
 
     std::ostream& ins(std::ostream& out) const;

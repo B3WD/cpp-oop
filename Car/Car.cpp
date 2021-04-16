@@ -128,6 +128,18 @@ std::ostream& operator<<(std::ostream& lhs, const Car& rhs){
     return rhs.ins(lhs);
 }
 
+std::ostream& operator<<(std::ostream& lhs, const Car* rhs){
+    int i = 0;
+
+    while(rhs[i].getbrand()[0] != '\0'){
+        lhs << "===== Car " << i << " =====\n";
+        rhs[i].ins(lhs);
+        i++;
+    }
+
+    return lhs;
+}
+
 Car operator+(int lhs, const Car& rhs) {
     return rhs + lhs;
 }

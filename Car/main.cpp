@@ -18,13 +18,15 @@ int main() {
     Car c4("a", 1, 1, 2001, 5000);
     std::cout << (c4 <= Car("b", 1, 1, 2001, 5000)) << std::endl;
 
-    Car carsCeco[3] = {c1, c2, c3};
-    CarDealer cecArDlr("Ceco", 3, carsCeco);
+    Car carsCeco[4] = {c1, c2, c3, Car("\0")};
+    CarDealer cecArDlr("Ceco", 4, carsCeco);
 
-    Car carsIvan[1] = {c2};
-    cecArDlr = CarDealer("Ivan", 1, carsIvan);
+    Car carsIvan[2] = {c2, Car("\0")};
+    cecArDlr = CarDealer("Ivan", 2, carsIvan);
 
-    std::cout << cecArDlr;
+    std::cout << cecArDlr + Car() + Car("Lmao");
+
+    std::cout << "Car arr: " << carsCeco;
 
     return 0;
 }

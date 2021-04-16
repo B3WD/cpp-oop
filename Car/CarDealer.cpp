@@ -50,13 +50,30 @@ Car CarDealer::operator[](int i) const {
 }
 
 std::ostream& CarDealer::ins(std::ostream& out) const {
-    out << "Dealer name: " << _name << "\nCar count: " << _carCount << "\n";
-
-    for(int i = 0; i <  _carCount; i++){
-        out << "===== Car " << i << " =====\n" << _cars[i];
-    }
+    out << "Dealer name: " << _name << "\nCar count: " << _carCount << "\n" << _cars;
 
     return out;
+}
+
+CarDealer& CarDealer::operator+(const Car &rhs) {
+    Car* oldCars = new Car[_carCount];
+
+    for(int i = 0; i < _carCount; i++){
+        oldCars[i] = _cars[i];
+    }
+
+    delete[] _cars;
+    _cars = new Car[_carCount+1];
+
+    for(int i = 0; i < _carCount-1; i++){
+        _cars[i] = oldCars[i];
+    }
+    _cars[_carCount-1] = rhs;
+    _cars[_carCount] = oldCars[_carCount-1];
+    _carCount++;
+    delete[] oldCars;
+
+    return *this;
 }
 
 std::ostream& operator<<(std::ostream& out, const CarDealer& rhs){
