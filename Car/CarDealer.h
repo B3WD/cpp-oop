@@ -29,6 +29,7 @@ public:
     bool operator==(const CarDealer& rhs) const;
 
     Car operator[](int i) const;
+    Car& operator[](int i);
 
     std::ostream& ins(std::ostream& out) const;
 };

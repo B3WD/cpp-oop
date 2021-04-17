@@ -142,6 +142,10 @@ bool CarDealer::operator==(const CarDealer &rhs) const {
     return flag;
 }
 
+Car &CarDealer::operator[](int i) {
+    return _cars[i];
+}
+
 std::ostream& operator<<(std::ostream& out, const CarDealer& rhs){
     return rhs.ins(out);
 }
