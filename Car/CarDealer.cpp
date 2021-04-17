@@ -76,6 +76,72 @@ CarDealer& CarDealer::operator+(const Car &rhs) {
     return *this;
 }
 
+CarDealer& CarDealer::operator-(const Car& rhs) {
+    Car* oldCars = new Car[_carCount];
+    int j = 0;
+
+    for(int i = 0; i < _carCount; i++){
+        oldCars[i] = _cars[i];
+    }
+
+    delete[] _cars;
+    _cars = new Car[_carCount-1];
+
+    for(int i = 0; i < _carCount; i++){
+        if(!(oldCars[i] == rhs)){
+             _cars[j++] = oldCars[i];
+        }
+    }
+
+    _carCount--;
+
+    return *this;
+}
+
+int CarDealer::operator()() const{
+    int sum = 0;
+
+    for(int i = 0; i < _carCount; i++){
+        sum += _cars[i].getPrice();
+    }
+
+    return sum;
+}
+
+bool CarDealer::operator>(const CarDealer& rhs) const{
+    bool flag = false;
+    int sumSelf = (*this)();
+    int sumRhs = rhs();
+
+    if(sumSelf > sumRhs){
+        flag = true;
+    } else if(sumSelf == sumRhs && _carCount > rhs._carCount){
+        flag = true;
+    } else if(sumSelf == sumRhs && _carCount == rhs._carCount &&
+                        std::lexicographical_compare(_name,
+                                                     _name+strlen(_name),
+                                                     rhs._name,
+                                                     rhs._name+strlen(rhs._name))) {
+        flag = true;
+    }
+
+    return flag;
+}
+
+bool CarDealer::operator<(const CarDealer &rhs) const {
+    return *this > rhs;
+}
+
+bool CarDealer::operator==(const CarDealer &rhs) const {
+    bool flag = false;
+
+    if((*this)() == rhs() && _carCount == rhs._carCount && !strcmp(_name, rhs._name)){
+        flag = true;
+    }
+
+    return flag;
+}
+
 std::ostream& operator<<(std::ostream& out, const CarDealer& rhs){
     return rhs.ins(out);
 }

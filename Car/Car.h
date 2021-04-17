@@ -22,6 +22,7 @@ public:
 
     void setBrand(const char * brand = "Null");
     inline char* getbrand() const { return _brand; };
+    inline int getPrice() const { return _price; };
 
     Car operator+(int rhs) const;
     Car& operator+=(int rhs);

@@ -26,7 +26,22 @@ int main() {
 
     std::cout << cecArDlr + Car() + Car("Lmao");
 
+    cecArDlr = cecArDlr - Car("Lmao");
+
+    std::cout << "After removing cat 'Lmao'. " << cecArDlr;
+
     std::cout << "Car arr: " << carsCeco;
+
+    CarDealer PeshoDelr("Pesho", 2, carsIvan);
+    CarDealer AlexDelr("Alex", 2, carsIvan);
+
+    PeshoDelr = PeshoDelr + Car("Cool Car");
+
+    if(PeshoDelr > AlexDelr){
+        std::cout << "Pesho is better\n";
+    } else {
+        std::cout << "Alex is better\n";
+    }
 
     return 0;
 }

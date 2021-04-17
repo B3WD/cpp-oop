@@ -22,6 +22,12 @@ public:
     CarDealer& operator=(const CarDealer& rhs);
 
     CarDealer& operator+(const Car& rhs);
+    CarDealer& operator-(const Car& rhs);
+    int operator()() const;
+    bool operator>(const CarDealer& rhs) const;
+    bool operator<(const CarDealer& rhs) const;
+    bool operator==(const CarDealer& rhs) const;
+
     Car operator[](int i) const;
 
     std::ostream& ins(std::ostream& out) const;
