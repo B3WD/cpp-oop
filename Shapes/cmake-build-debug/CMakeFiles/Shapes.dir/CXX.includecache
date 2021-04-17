@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Rectangle.h
+Square.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Square.h
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Shape.h
+iostream
+-
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Square.h
+Shape.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Shape.h
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/main.cpp
+iostream
+-
+Shape.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Shape.h
+Square.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Square.h
+Rectangle.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Rectangle.h
+
