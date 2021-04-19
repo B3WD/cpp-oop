@@ -20,6 +20,9 @@ public:
 
     ArrRectangle& operator=(const ArrRectangle& rhs);
 
+    Rectangle operator[](unsigned i) const;
+    Rectangle& operator[](unsigned i);
+    Rectangle operator()() const;
 };
 
 

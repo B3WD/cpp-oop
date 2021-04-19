@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/ArrRectangle.h
+iostream
+-
+Rectangle.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Rectangle.h
+
 C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Rectangle.h
 Square.h
 C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Square.h
@@ -27,4 +33,6 @@ Square.h
 C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Square.h
 Rectangle.h
 C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Rectangle.h
+ArrRectangle.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/ArrRectangle.h
 
