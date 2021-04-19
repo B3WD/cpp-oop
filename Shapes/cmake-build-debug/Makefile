@@ -141,6 +141,33 @@ Shapes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shapes.dir\build.make CMakeFiles/Shapes.dir/build
 .PHONY : Shapes/fast
 
+ArrRectangle.obj: ArrRectangle.cpp.obj
+
+.PHONY : ArrRectangle.obj
+
+# target to build an object file
+ArrRectangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shapes.dir\build.make CMakeFiles/Shapes.dir/ArrRectangle.cpp.obj
+.PHONY : ArrRectangle.cpp.obj
+
+ArrRectangle.i: ArrRectangle.cpp.i
+
+.PHONY : ArrRectangle.i
+
+# target to preprocess a source file
+ArrRectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shapes.dir\build.make CMakeFiles/Shapes.dir/ArrRectangle.cpp.i
+.PHONY : ArrRectangle.cpp.i
+
+ArrRectangle.s: ArrRectangle.cpp.s
+
+.PHONY : ArrRectangle.s
+
+# target to generate assembly for a file
+ArrRectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shapes.dir\build.make CMakeFiles/Shapes.dir/ArrRectangle.cpp.s
+.PHONY : ArrRectangle.cpp.s
+
 Rectangle.obj: Rectangle.cpp.obj
 
 .PHONY : Rectangle.obj
@@ -258,6 +285,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Shapes
+	@echo ... ArrRectangle.obj
+	@echo ... ArrRectangle.i
+	@echo ... ArrRectangle.s
 	@echo ... Rectangle.obj
 	@echo ... Rectangle.i
 	@echo ... Rectangle.s

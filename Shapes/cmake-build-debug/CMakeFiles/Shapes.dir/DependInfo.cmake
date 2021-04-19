@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/ArrRectangle.cpp" "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/cmake-build-debug/CMakeFiles/Shapes.dir/ArrRectangle.cpp.obj"
   "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Rectangle.cpp" "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/cmake-build-debug/CMakeFiles/Shapes.dir/Rectangle.cpp.obj"
   "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Shape.cpp" "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/cmake-build-debug/CMakeFiles/Shapes.dir/Shape.cpp.obj"
   "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Square.cpp" "C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/cmake-build-debug/CMakeFiles/Shapes.dir/Square.cpp.obj"

@@ -33,6 +33,15 @@ double Square::S() const {
     return getA()*getA();
 }
 
+bool Square::operator>(const Square &rhs) const {
+    return S() > rhs.S();
+}
+
+bool Square::operator<(const Square &rhs) const {
+    return S() < rhs.S();
+}
+
+
 //std::ostream& operator<<(std::ostream& out, const Square& rhs){
 //    out << rhs.getA();
 //    return out;

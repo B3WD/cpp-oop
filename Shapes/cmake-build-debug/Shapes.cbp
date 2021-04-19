@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/ArrRectangle.cpp">
+			<Option target="Shapes"/>
+		</Unit>
+		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/ArrRectangle.h">
+			<Option target="Shapes"/>
+		</Unit>
 		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/Shapes/Rectangle.cpp">
 			<Option target="Shapes"/>
 		</Unit>

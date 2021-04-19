@@ -15,6 +15,9 @@ public:
 
     Square& operator=(const Square& rhs);
 
+    bool operator>(const Square& rhs) const;
+    bool operator<(const Square& rhs) const;
+
     double P() const;
     double S() const;
 };

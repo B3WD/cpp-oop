@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Shapes.dir/ArrRectangle.cpp.obj"
   "CMakeFiles/Shapes.dir/Rectangle.cpp.obj"
   "CMakeFiles/Shapes.dir/Shape.cpp.obj"
   "CMakeFiles/Shapes.dir/Square.cpp.obj"
