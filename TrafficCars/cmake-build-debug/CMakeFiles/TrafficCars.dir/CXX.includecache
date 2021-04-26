@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/HeavyVehicle.cpp
+HeavyVehicle.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/HeavyVehicle.h
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/HeavyVehicle.h
+Vehicle.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Vehicle.h
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Vehicle.h
+iostream
+-
+cstring
+-
+

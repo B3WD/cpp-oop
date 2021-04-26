@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/HeavyVehicle.cpp">
+			<Option target="TrafficCars"/>
+		</Unit>
+		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/HeavyVehicle.h">
+			<Option target="TrafficCars"/>
+		</Unit>
+		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Vehicle.cpp">
+			<Option target="TrafficCars"/>
+		</Unit>
+		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Vehicle.h">
+			<Option target="TrafficCars"/>
+		</Unit>
 		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/main.cpp">
 			<Option target="TrafficCars"/>
 		</Unit>

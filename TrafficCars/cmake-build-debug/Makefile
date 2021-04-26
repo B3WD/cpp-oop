@@ -141,6 +141,60 @@ TrafficCars/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/build
 .PHONY : TrafficCars/fast
 
+HeavyVehicle.obj: HeavyVehicle.cpp.obj
+
+.PHONY : HeavyVehicle.obj
+
+# target to build an object file
+HeavyVehicle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/HeavyVehicle.cpp.obj
+.PHONY : HeavyVehicle.cpp.obj
+
+HeavyVehicle.i: HeavyVehicle.cpp.i
+
+.PHONY : HeavyVehicle.i
+
+# target to preprocess a source file
+HeavyVehicle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/HeavyVehicle.cpp.i
+.PHONY : HeavyVehicle.cpp.i
+
+HeavyVehicle.s: HeavyVehicle.cpp.s
+
+.PHONY : HeavyVehicle.s
+
+# target to generate assembly for a file
+HeavyVehicle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/HeavyVehicle.cpp.s
+.PHONY : HeavyVehicle.cpp.s
+
+Vehicle.obj: Vehicle.cpp.obj
+
+.PHONY : Vehicle.obj
+
+# target to build an object file
+Vehicle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/Vehicle.cpp.obj
+.PHONY : Vehicle.cpp.obj
+
+Vehicle.i: Vehicle.cpp.i
+
+.PHONY : Vehicle.i
+
+# target to preprocess a source file
+Vehicle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/Vehicle.cpp.i
+.PHONY : Vehicle.cpp.i
+
+Vehicle.s: Vehicle.cpp.s
+
+.PHONY : Vehicle.s
+
+# target to generate assembly for a file
+Vehicle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/Vehicle.cpp.s
+.PHONY : Vehicle.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -177,6 +231,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TrafficCars
+	@echo ... HeavyVehicle.obj
+	@echo ... HeavyVehicle.i
+	@echo ... HeavyVehicle.s
+	@echo ... Vehicle.obj
+	@echo ... Vehicle.i
+	@echo ... Vehicle.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

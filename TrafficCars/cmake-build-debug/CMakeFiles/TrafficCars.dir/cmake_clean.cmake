@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TrafficCars.dir/HeavyVehicle.cpp.obj"
+  "CMakeFiles/TrafficCars.dir/Vehicle.cpp.obj"
   "CMakeFiles/TrafficCars.dir/main.cpp.obj"
   "TrafficCars.exe"
   "TrafficCars.exe.manifest"
