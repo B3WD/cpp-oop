@@ -22,6 +22,6 @@ public:
     std::ostream& ins(std::ostream& out) const;
 };
 
-std::ostream& operator<<(std::ostream& out, const Vehicle& rhs);
+std::ostream& operator<<(std::ostream& out, const HeavyVehicle& rhs);
 
 #endif //TRAFFICCARS_HEAVYVEHICLE_H

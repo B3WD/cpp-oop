@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TrafficCars.dir/Automobile.cpp.obj"
   "CMakeFiles/TrafficCars.dir/HeavyVehicle.cpp.obj"
   "CMakeFiles/TrafficCars.dir/Vehicle.cpp.obj"
   "CMakeFiles/TrafficCars.dir/main.cpp.obj"
