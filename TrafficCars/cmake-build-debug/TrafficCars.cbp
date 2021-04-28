@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AirVehicle.cpp">
+			<Option target="TrafficCars"/>
+		</Unit>
+		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AirVehicle.h">
+			<Option target="TrafficCars"/>
+		</Unit>
 		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Automobile.cpp">
 			<Option target="TrafficCars"/>
 		</Unit>

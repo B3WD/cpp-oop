@@ -141,6 +141,33 @@ TrafficCars/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/build
 .PHONY : TrafficCars/fast
 
+AirVehicle.obj: AirVehicle.cpp.obj
+
+.PHONY : AirVehicle.obj
+
+# target to build an object file
+AirVehicle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/AirVehicle.cpp.obj
+.PHONY : AirVehicle.cpp.obj
+
+AirVehicle.i: AirVehicle.cpp.i
+
+.PHONY : AirVehicle.i
+
+# target to preprocess a source file
+AirVehicle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/AirVehicle.cpp.i
+.PHONY : AirVehicle.cpp.i
+
+AirVehicle.s: AirVehicle.cpp.s
+
+.PHONY : AirVehicle.s
+
+# target to generate assembly for a file
+AirVehicle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/AirVehicle.cpp.s
+.PHONY : AirVehicle.cpp.s
+
 Automobile.obj: Automobile.cpp.obj
 
 .PHONY : Automobile.obj
@@ -258,6 +285,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TrafficCars
+	@echo ... AirVehicle.obj
+	@echo ... AirVehicle.i
+	@echo ... AirVehicle.s
 	@echo ... Automobile.obj
 	@echo ... Automobile.i
 	@echo ... Automobile.s
