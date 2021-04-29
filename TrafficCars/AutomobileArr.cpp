@@ -70,3 +70,7 @@ Automobile &AutomobileArr::operator[](unsigned int i) {
 std::ostream& operator<<(std::ostream &out, const AutomobileArr &rhs){
     return rhs.ins(out);
 }
+
+AutomobileArr operator+(const Automobile &lhs, const AutomobileArr &rhs){
+    return rhs + lhs;
+}

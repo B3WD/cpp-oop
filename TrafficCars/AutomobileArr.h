@@ -29,6 +29,7 @@ public:
 };
 
 std::ostream& operator<<(std::ostream &out, const AutomobileArr &rhs);
+AutomobileArr operator+(const Automobile &lhs, const AutomobileArr &rhs);
 void cpyMobileArr(Automobile *dest, Automobile *source, int sz);
 
 #endif //MAIN_CPP_AUTOMOBILEARR_H
