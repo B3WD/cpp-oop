@@ -11,17 +11,20 @@ class AutomobileArr {
 private:
     int _sz;
     Automobile *_AMobileArr;
-    void cpyMobileArr(Automobile *dest, Automobile *source, int sz);
+    void cpyMobileArr(Automobile *source, int sz);
 
 public:
-    AutomobileArr(Automobile *AMobileArr = nullptr, int sz = 0);
+    AutomobileArr(int sz);
+    AutomobileArr(Automobile *AMobileArr, int sz);
     AutomobileArr(const AutomobileArr &rhs);
     ~AutomobileArr();
 
     AutomobileArr& operator=(const AutomobileArr &rhs);
+    AutomobileArr operator+(const Automobile &rhs) const;
 
     std::ostream& ins(std::ostream &out) const;
     Automobile operator[](unsigned i) const;
+    Automobile& operator[](unsigned i);
 
 };
 

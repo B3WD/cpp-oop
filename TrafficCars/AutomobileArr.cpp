@@ -4,14 +4,21 @@
 
 #include "AutomobileArr.h"
 
+AutomobileArr::AutomobileArr(int sz)
+: _AMobileArr(new Automobile[sz]), _sz(sz) {
+    for(int i = 0; i < _sz; i++){
+        _AMobileArr[i] = Automobile();
+    }
+}
+
 AutomobileArr::AutomobileArr(Automobile *AMobileArr, int sz)
 :_AMobileArr(new Automobile[sz]), _sz(sz) {
-    cpyMobileArr(_AMobileArr, AMobileArr, _sz);
+    cpyMobileArr(AMobileArr, _sz);
 };
 
 AutomobileArr::AutomobileArr(const AutomobileArr &rhs)
 :_AMobileArr(new Automobile[rhs._sz]), _sz(rhs._sz){
-    cpyMobileArr(_AMobileArr, rhs._AMobileArr, _sz);
+    cpyMobileArr(rhs._AMobileArr, _sz);
 };
 
 AutomobileArr::~AutomobileArr(){
@@ -22,7 +29,7 @@ AutomobileArr& AutomobileArr::operator=(const AutomobileArr &rhs){
     if(this != &rhs){
         delete[] _AMobileArr;
         _AMobileArr = new Automobile[rhs._sz];
-        cpyMobileArr(_AMobileArr, rhs._AMobileArr, _sz);
+        cpyMobileArr(rhs._AMobileArr, rhs._sz);
 
         _sz = rhs._sz;
     }
@@ -41,10 +48,31 @@ Automobile AutomobileArr::operator[](unsigned i) const{
     return _AMobileArr[i];
 }
 
-void AutomobileArr::cpyMobileArr(Automobile *dest, Automobile *source, int sz) {
+void AutomobileArr::cpyMobileArr(Automobile *source, int sz){
     for(int i = 0; i < sz; i++){
-        dest[i] = source[i];
+        _AMobileArr[i] = source[i];
     }
+}
+
+AutomobileArr AutomobileArr::operator+(const Automobile &rhs) const {
+
+    AutomobileArr newArr(_sz+1);
+
+    std::cout << "Empty Automobile arr: " << newArr << "\n";
+
+    for(int i = 0; i < _sz; i++){
+        newArr[i] = _AMobileArr[i];
+        std::cout << "NewArr at step " << i << ": " << newArr << "\n";
+    }
+
+    newArr[_sz] = rhs;
+    std::cout << "The finished arr: " << newArr << "\n";
+
+    return newArr;
+}
+
+Automobile &AutomobileArr::operator[](unsigned int i) {
+    return _AMobileArr[i];
 }
 
 std::ostream& operator<<(std::ostream &out, const AutomobileArr &rhs){

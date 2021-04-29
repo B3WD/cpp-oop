@@ -18,7 +18,7 @@ Vehicle::~Vehicle(){
     delete[] _brand;
 }
 
-Vehicle& Vehicle::operator=(const Vehicle& rhs){
+Vehicle& Vehicle::operator=(const Vehicle &rhs){
     if(this != &rhs){
         setBrand(rhs._brand);
         setWheelCount(rhs._wheelCount);

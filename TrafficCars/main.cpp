@@ -22,6 +22,7 @@ void t2(){
 
 void t3(){
     Automobile a1("Fiat", 4, 80, "sedan");
+    a1 = Automobile("Seat", 2, 25, "combi");
     a1.setCoupType("Convertable");
     a1.setHp(99);
     std::cout << a1;
@@ -44,7 +45,13 @@ void t5(){
 
     AutomobileArr aa1(MobileAar, 2);
 
-    std::cout << aa1[1] << "\n";
+//    AutomobileArr aa2(3);
+//    aa2[1] = a;
+//    std::cout << aa2 << "\n";
+
+//    std::cout << aa1[1] << "\n";
+
+    aa1 = aa1 + a;
 
     std::cout << aa1;
 }
