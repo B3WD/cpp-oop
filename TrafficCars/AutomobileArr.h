@@ -11,7 +11,7 @@ class AutomobileArr {
 private:
     int _sz;
     Automobile *_AMobileArr;
-    void cpyMobileArr(Automobile *source, int sz);
+    // void cpyMobileArr(Automobile *source, int sz);
 
 public:
     AutomobileArr(int sz);
@@ -29,5 +29,6 @@ public:
 };
 
 std::ostream& operator<<(std::ostream &out, const AutomobileArr &rhs);
+void cpyMobileArr(Automobile *dest, Automobile *source, int sz);
 
 #endif //MAIN_CPP_AUTOMOBILEARR_H

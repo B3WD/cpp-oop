@@ -51,7 +51,7 @@ void t5(){
 
 //    std::cout << aa1[1] << "\n";
 
-    aa1 = aa1 + a;
+    aa1 = aa1 + a + b + a + b + b;
 
     std::cout << aa1;
 }
@@ -62,7 +62,7 @@ int main() {
     // t2();
     // t3();
     // t4();
-    t5();
+    // t5();
 
     return 0;
 }
