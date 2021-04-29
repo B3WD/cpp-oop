@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Employee.h
+string
+-
+iostream
+-
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/main.cpp
+iostream
+-
+Employee.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Employee.h
+
