@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AirVehicle.cpp
-AirVehicle.h
-C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AirVehicle.h
-
 C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AirVehicle.h
 Vehicle.h
 C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Vehicle.h
@@ -17,6 +13,10 @@ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Vehicle.h
 C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Automobile.h
 Vehicle.h
 C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Vehicle.h
+
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AutomobileArr.h
+Automobile.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Automobile.h
 
 C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/HeavyVehicle.h
 Vehicle.h
@@ -39,4 +39,6 @@ Automobile.h
 C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Automobile.h
 AirVehicle.h
 C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AirVehicle.h
+AutomobileArr.h
+C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AutomobileArr.h
 

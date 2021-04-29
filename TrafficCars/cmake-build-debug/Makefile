@@ -195,6 +195,33 @@ Automobile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/Automobile.cpp.s
 .PHONY : Automobile.cpp.s
 
+AutomobileArr.obj: AutomobileArr.cpp.obj
+
+.PHONY : AutomobileArr.obj
+
+# target to build an object file
+AutomobileArr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/AutomobileArr.cpp.obj
+.PHONY : AutomobileArr.cpp.obj
+
+AutomobileArr.i: AutomobileArr.cpp.i
+
+.PHONY : AutomobileArr.i
+
+# target to preprocess a source file
+AutomobileArr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/AutomobileArr.cpp.i
+.PHONY : AutomobileArr.cpp.i
+
+AutomobileArr.s: AutomobileArr.cpp.s
+
+.PHONY : AutomobileArr.s
+
+# target to generate assembly for a file
+AutomobileArr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TrafficCars.dir\build.make CMakeFiles/TrafficCars.dir/AutomobileArr.cpp.s
+.PHONY : AutomobileArr.cpp.s
+
 HeavyVehicle.obj: HeavyVehicle.cpp.obj
 
 .PHONY : HeavyVehicle.obj
@@ -291,6 +318,9 @@ help:
 	@echo ... Automobile.obj
 	@echo ... Automobile.i
 	@echo ... Automobile.s
+	@echo ... AutomobileArr.obj
+	@echo ... AutomobileArr.i
+	@echo ... AutomobileArr.s
 	@echo ... HeavyVehicle.obj
 	@echo ... HeavyVehicle.i
 	@echo ... HeavyVehicle.s

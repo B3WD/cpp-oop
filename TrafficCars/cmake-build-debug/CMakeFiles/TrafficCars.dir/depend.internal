@@ -9,6 +9,11 @@ CMakeFiles/TrafficCars.dir/Automobile.cpp.obj
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Automobile.cpp
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Automobile.h
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Vehicle.h
+CMakeFiles/TrafficCars.dir/AutomobileArr.cpp.obj
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Automobile.h
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AutomobileArr.cpp
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AutomobileArr.h
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Vehicle.h
 CMakeFiles/TrafficCars.dir/HeavyVehicle.cpp.obj
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/HeavyVehicle.cpp
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/HeavyVehicle.h
@@ -19,6 +24,7 @@ CMakeFiles/TrafficCars.dir/Vehicle.cpp.obj
 CMakeFiles/TrafficCars.dir/main.cpp.obj
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AirVehicle.h
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Automobile.h
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AutomobileArr.h
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/HeavyVehicle.h
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Vehicle.h
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/main.cpp

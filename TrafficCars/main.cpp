@@ -3,6 +3,8 @@
 #include "HeavyVehicle.h"
 #include "Automobile.h"
 #include "AirVehicle.h"
+#include "AutomobileArr.h"
+
 
 void t1(){
     Vehicle v1("Kia", 10, 1);
@@ -33,12 +35,27 @@ void t4(){
 
 }
 
+void t5(){
+    Automobile a("bmw", 1, 2, "coupe");
+    Automobile b(a);
+    b.setBrand("McLaren");
+
+    Automobile MobileAar[] = { a, b };
+
+    AutomobileArr aa1(MobileAar, 2);
+
+    std::cout << aa1[1] << "\n";
+
+    std::cout << aa1;
+}
+
 int main() {
 
     // t1();
     // t2();
     // t3();
-    t4();
+    // t4();
+    t5();
 
     return 0;
 }

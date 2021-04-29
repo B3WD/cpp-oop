@@ -9,6 +9,11 @@ CMakeFiles/TrafficCars.dir/Automobile.cpp.obj: ../Automobile.cpp
 CMakeFiles/TrafficCars.dir/Automobile.cpp.obj: ../Automobile.h
 CMakeFiles/TrafficCars.dir/Automobile.cpp.obj: ../Vehicle.h
 
+CMakeFiles/TrafficCars.dir/AutomobileArr.cpp.obj: ../Automobile.h
+CMakeFiles/TrafficCars.dir/AutomobileArr.cpp.obj: ../AutomobileArr.cpp
+CMakeFiles/TrafficCars.dir/AutomobileArr.cpp.obj: ../AutomobileArr.h
+CMakeFiles/TrafficCars.dir/AutomobileArr.cpp.obj: ../Vehicle.h
+
 CMakeFiles/TrafficCars.dir/HeavyVehicle.cpp.obj: ../HeavyVehicle.cpp
 CMakeFiles/TrafficCars.dir/HeavyVehicle.cpp.obj: ../HeavyVehicle.h
 CMakeFiles/TrafficCars.dir/HeavyVehicle.cpp.obj: ../Vehicle.h
@@ -18,6 +23,7 @@ CMakeFiles/TrafficCars.dir/Vehicle.cpp.obj: ../Vehicle.h
 
 CMakeFiles/TrafficCars.dir/main.cpp.obj: ../AirVehicle.h
 CMakeFiles/TrafficCars.dir/main.cpp.obj: ../Automobile.h
+CMakeFiles/TrafficCars.dir/main.cpp.obj: ../AutomobileArr.h
 CMakeFiles/TrafficCars.dir/main.cpp.obj: ../HeavyVehicle.h
 CMakeFiles/TrafficCars.dir/main.cpp.obj: ../Vehicle.h
 CMakeFiles/TrafficCars.dir/main.cpp.obj: ../main.cpp

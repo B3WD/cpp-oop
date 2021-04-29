@@ -92,6 +92,12 @@
 		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/Automobile.h">
 			<Option target="TrafficCars"/>
 		</Unit>
+		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AutomobileArr.cpp">
+			<Option target="TrafficCars"/>
+		</Unit>
+		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/AutomobileArr.h">
+			<Option target="TrafficCars"/>
+		</Unit>
 		<Unit filename="C:/Users/tzvet/my_stuff/GitHub/cpp-oop/TrafficCars/HeavyVehicle.cpp">
 			<Option target="TrafficCars"/>
 		</Unit>
