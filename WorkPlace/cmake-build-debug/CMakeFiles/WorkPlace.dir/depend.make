@@ -4,6 +4,17 @@
 CMakeFiles/WorkPlace.dir/Employee.cpp.obj: ../Employee.cpp
 CMakeFiles/WorkPlace.dir/Employee.cpp.obj: ../Employee.h
 
+CMakeFiles/WorkPlace.dir/Executive.cpp.obj: ../Employee.h
+CMakeFiles/WorkPlace.dir/Executive.cpp.obj: ../Executive.cpp
+CMakeFiles/WorkPlace.dir/Executive.cpp.obj: ../Executive.h
+CMakeFiles/WorkPlace.dir/Executive.cpp.obj: ../Manager.h
+
+CMakeFiles/WorkPlace.dir/Manager.cpp.obj: ../Employee.h
+CMakeFiles/WorkPlace.dir/Manager.cpp.obj: ../Manager.cpp
+CMakeFiles/WorkPlace.dir/Manager.cpp.obj: ../Manager.h
+
 CMakeFiles/WorkPlace.dir/main.cpp.obj: ../Employee.h
+CMakeFiles/WorkPlace.dir/main.cpp.obj: ../Executive.h
+CMakeFiles/WorkPlace.dir/main.cpp.obj: ../Manager.h
 CMakeFiles/WorkPlace.dir/main.cpp.obj: ../main.cpp
 

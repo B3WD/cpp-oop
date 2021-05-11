@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/WorkPlace.dir/Employee.cpp.obj"
+  "CMakeFiles/WorkPlace.dir/Executive.cpp.obj"
+  "CMakeFiles/WorkPlace.dir/Manager.cpp.obj"
   "CMakeFiles/WorkPlace.dir/main.cpp.obj"
   "WorkPlace.exe"
   "WorkPlace.exe.manifest"

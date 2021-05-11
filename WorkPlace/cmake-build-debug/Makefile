@@ -168,6 +168,60 @@ Employee.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkPlace.dir\build.make CMakeFiles/WorkPlace.dir/Employee.cpp.s
 .PHONY : Employee.cpp.s
 
+Executive.obj: Executive.cpp.obj
+
+.PHONY : Executive.obj
+
+# target to build an object file
+Executive.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkPlace.dir\build.make CMakeFiles/WorkPlace.dir/Executive.cpp.obj
+.PHONY : Executive.cpp.obj
+
+Executive.i: Executive.cpp.i
+
+.PHONY : Executive.i
+
+# target to preprocess a source file
+Executive.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkPlace.dir\build.make CMakeFiles/WorkPlace.dir/Executive.cpp.i
+.PHONY : Executive.cpp.i
+
+Executive.s: Executive.cpp.s
+
+.PHONY : Executive.s
+
+# target to generate assembly for a file
+Executive.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkPlace.dir\build.make CMakeFiles/WorkPlace.dir/Executive.cpp.s
+.PHONY : Executive.cpp.s
+
+Manager.obj: Manager.cpp.obj
+
+.PHONY : Manager.obj
+
+# target to build an object file
+Manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkPlace.dir\build.make CMakeFiles/WorkPlace.dir/Manager.cpp.obj
+.PHONY : Manager.cpp.obj
+
+Manager.i: Manager.cpp.i
+
+.PHONY : Manager.i
+
+# target to preprocess a source file
+Manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkPlace.dir\build.make CMakeFiles/WorkPlace.dir/Manager.cpp.i
+.PHONY : Manager.cpp.i
+
+Manager.s: Manager.cpp.s
+
+.PHONY : Manager.s
+
+# target to generate assembly for a file
+Manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkPlace.dir\build.make CMakeFiles/WorkPlace.dir/Manager.cpp.s
+.PHONY : Manager.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -207,6 +261,12 @@ help:
 	@echo ... Employee.obj
 	@echo ... Employee.i
 	@echo ... Employee.s
+	@echo ... Executive.obj
+	@echo ... Executive.i
+	@echo ... Executive.s
+	@echo ... Manager.obj
+	@echo ... Manager.i
+	@echo ... Manager.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

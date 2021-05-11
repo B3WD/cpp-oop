@@ -1,5 +1,7 @@
 #include <iostream>
 #include "Employee.h"
+#include "Manager.h"
+#include "Executive.h"
 
 void t1(){
     Employee e1("Ivan", 100, 1);
@@ -9,9 +11,26 @@ void t1(){
     std::cout << e1;
 }
 
+void t2(){
+    Manager m1("Richie", 1000, 5, "QA");
+    m1.setDepartment("Quality Assurance");
+
+    std::cout << m1;
+}
+
+void t3(){
+    Executive ex1("Richie", 1000, 5, "QA");
+    ex1.setDepartment("Quality Assurance");
+
+    std::cout << ex1;
+
+}
+
 int main() {
 
     t1();
+    t2();
+    t3();
 
     return 0;
 }

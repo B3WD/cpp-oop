@@ -92,12 +92,12 @@ clean: CMakeFiles/WorkPlace.dir/clean
 CMakeFiles/WorkPlace.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkPlace.dir\build.make CMakeFiles/WorkPlace.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkPlace.dir\build.make CMakeFiles/WorkPlace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tzvet\my_stuff\GitHub\cpp-oop\WorkPlace\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target WorkPlace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tzvet\my_stuff\GitHub\cpp-oop\WorkPlace\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target WorkPlace"
 .PHONY : CMakeFiles/WorkPlace.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/WorkPlace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tzvet\my_stuff\GitHub\cpp-oop\WorkPlace\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tzvet\my_stuff\GitHub\cpp-oop\WorkPlace\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/WorkPlace.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tzvet\my_stuff\GitHub\cpp-oop\WorkPlace\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/WorkPlace.dir/rule

@@ -4,6 +4,17 @@
 CMakeFiles/WorkPlace.dir/Employee.cpp.obj
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Employee.cpp
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Employee.h
+CMakeFiles/WorkPlace.dir/Executive.cpp.obj
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Employee.h
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Executive.cpp
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Executive.h
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Manager.h
+CMakeFiles/WorkPlace.dir/Manager.cpp.obj
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Employee.h
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Manager.cpp
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Manager.h
 CMakeFiles/WorkPlace.dir/main.cpp.obj
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Employee.h
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Executive.h
+ C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/Manager.h
  C:/Users/tzvet/my_stuff/GitHub/cpp-oop/WorkPlace/main.cpp
