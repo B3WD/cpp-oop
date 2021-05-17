@@ -1,0 +1,8 @@
+# ninja log v5
+5	463	642949383	CMakeFiles/WorkPlace.dir/Manager.cpp.obj	180a3c61826ca4f8
+3	465	642949383	CMakeFiles/WorkPlace.dir/Employee.cpp.obj	253339402e16b611
+1	465	642949383	CMakeFiles/WorkPlace.dir/main.cpp.obj	481aba5fa7c3bec9
+7	468	642949383	CMakeFiles/WorkPlace.dir/Executive.cpp.obj	ded44ee768057aca
+468	681	642949383	WorkPlace.exe	ddb3fd3b0a353cdd
+0	802	642955381	CMakeFiles/WorkPlace.dir/main.cpp.obj	481aba5fa7c3bec9
+802	935	642955381	WorkPlace.exe	ddb3fd3b0a353cdd

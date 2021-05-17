@@ -8,21 +8,21 @@ void t1(){
     e1 = Employee("Denis", 35, 0);
     e1.setName("Nichze");
 
-    std::cout << e1;
+    std::cout << e1 << std::endl;
 }
 
 void t2(){
     Manager m1("Richie", 1000, 5, "QA");
     m1.setDepartment("Quality Assurance");
 
-    std::cout << m1;
+    std::cout << m1 << std::endl;
 }
 
 void t3(){
     Executive ex1("Richie", 1000, 5, "QA");
     ex1.setDepartment("Quality Assurance");
 
-    std::cout << ex1;
+    std::cout << ex1 << std::endl;
 
 }
 
