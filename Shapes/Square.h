@@ -8,8 +8,12 @@
 #include "Shape.h"
 
 class Square: public Shape{
+private:
+    Point _p2;
+
 public:
     Square(double a = 0);
+    Square(Point p1, Point p2);
     Square(const Square& rhs);
     ~Square();
 

@@ -8,6 +8,11 @@ Square::Square(double a):Shape(a){
 
 }
 
+Square::Square(Point p1, Point p2):Shape(p1), _p2(p2)
+{
+    setA(abs(p1.getX() - p2.getX()));
+}
+
 Square::Square(const Square& rhs):Shape(rhs){
 
 }
@@ -40,7 +45,6 @@ bool Square::operator>(const Square &rhs) const {
 bool Square::operator<(const Square &rhs) const {
     return S() < rhs.S();
 }
-
 
 //std::ostream& operator<<(std::ostream& out, const Square& rhs){
 //    out << rhs.getA();

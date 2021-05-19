@@ -8,6 +8,11 @@ Rectangle::Rectangle(double a, double b): Square(a), _b(b){
 
 }
 
+Rectangle::Rectangle(Point p1, Point p2): Square(p1, p2)
+{
+    _b = abs(p1.getY() - p2.getY());
+}
+
 Rectangle::Rectangle(const Rectangle& rhs): Square(rhs), _b(rhs._b){
 
 }
@@ -45,6 +50,14 @@ std::ostream& Rectangle::ins(std::ostream& out) const {
     return out;
 }
 
+std::istream& Rectangle::ext(std::istream& in)
+{
+    Shape::ext(in);
+    in >> _b;
+
+    return in;
+}
+
 bool Rectangle::operator>(const Rectangle &rhs) const {
     return S() > rhs.S();
 }
@@ -55,4 +68,9 @@ bool Rectangle::operator<(const Rectangle &rhs) const {
 
 std::ostream& operator<<(std::ostream& out, const Rectangle& rhs){
     return rhs.ins(out);
+}
+
+std::istream& operator>>(std::istream& in, Rectangle& rhs)
+{
+    return rhs.ext(in);
 }

@@ -1,0 +1,5 @@
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/NumberRange/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/NumberRange/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/NumberRange/out/build/x64-Debug (default)/NumberRange/CMakeFiles/rebuild_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/NumberRange/out/build/x64-Debug (default)/NumberRange/CMakeFiles/NumberRange.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/NumberRange/out/build/x64-Debug (default)/NumberRange/CMakeFiles/edit_cache.dir
