@@ -1,0 +1,3 @@
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/Student/out/build/x64-Debug (default)/CMakeFiles/z1.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/Student/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/Student/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
