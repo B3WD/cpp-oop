@@ -1,0 +1,5 @@
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/TestPrep/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/TestPrep/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/TestPrep/out/build/x64-Debug (default)/TestPrep/CMakeFiles/TestPrep.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/TestPrep/out/build/x64-Debug (default)/TestPrep/CMakeFiles/edit_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/TestPrep/out/build/x64-Debug (default)/TestPrep/CMakeFiles/rebuild_cache.dir

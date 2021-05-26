@@ -1,0 +1,22 @@
+# ninja log v5
+0	133	643744117	build.ninja	4eeb2f064e6a4f3a
+3	273	643744118	TestPrep/CMakeFiles/TestPrep.dir/TraceFun.cpp.obj	8abb5b6289e785a7
+1	274	643744118	TestPrep/CMakeFiles/TestPrep.dir/main.cpp.obj	beda0f4b545da4ec
+5	279	643744118	TestPrep/CMakeFiles/TestPrep.dir/CountVar.cpp.obj	8f3384a4c92ebba6
+279	507	643744118	TestPrep/TestPrep.exe	75eeceebd1c16158
+1	91	643744126	build.ninja	4eeb2f064e6a4f3a
+1	262	643744127	TestPrep/CMakeFiles/TestPrep.dir/main.cpp.obj	beda0f4b545da4ec
+262	359	643744127	TestPrep/TestPrep.exe	75eeceebd1c16158
+1	97	643744772	build.ninja	4eeb2f064e6a4f3a
+1	553	643744773	TestPrep/CMakeFiles/TestPrep.dir/main.cpp.obj	beda0f4b545da4ec
+4	553	643744773	TestPrep/CMakeFiles/TestPrep.dir/RangeVar.cpp.obj	409404ac27b1ea45
+554	696	643744773	TestPrep/TestPrep.exe	565b8488b8baf1f8
+1	382	643744824	TestPrep/CMakeFiles/TestPrep.dir/main.cpp.obj	beda0f4b545da4ec
+382	493	643744825	TestPrep/TestPrep.exe	565b8488b8baf1f8
+2	375	643744901	TestPrep/CMakeFiles/TestPrep.dir/RangeVar.cpp.obj	409404ac27b1ea45
+0	376	643744901	TestPrep/CMakeFiles/TestPrep.dir/main.cpp.obj	beda0f4b545da4ec
+376	483	643744902	TestPrep/TestPrep.exe	565b8488b8baf1f8
+0	272	643744913	TestPrep/CMakeFiles/TestPrep.dir/main.cpp.obj	beda0f4b545da4ec
+272	374	643744913	TestPrep/TestPrep.exe	565b8488b8baf1f8
+0	260	643744918	TestPrep/CMakeFiles/TestPrep.dir/main.cpp.obj	beda0f4b545da4ec
+260	357	643744918	TestPrep/TestPrep.exe	565b8488b8baf1f8
