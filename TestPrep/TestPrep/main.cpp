@@ -2,6 +2,7 @@
 #include "TraceFun.h"
 #include "CountVar.h"
 #include "RangeVar.h"
+#include "Ristream.h"
 
 int someSum() {
 	TraceFun t("SomeFun", std::cout);
@@ -34,11 +35,23 @@ void t2() {
 	}
 }
 
+void t3() {
+	int i;
+	double d;
+	unsigned u;
+
+	for (int j = 0; j < 10; j++) {
+		Ristream(3, 70) >> i >> d >> u;
+		std::cout << i << "\t" << d << "\t" << u << "\n";
+	}
+}
+
 int main() {
 
 	//someSum();
 	//t1();
 	//t2();
+	t3();
 
 	return 0;
 }
