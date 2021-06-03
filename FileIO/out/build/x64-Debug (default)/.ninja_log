@@ -1,0 +1,24 @@
+# ninja log v5
+3	402	644415477	FileIO/CMakeFiles/FileIO.dir/main.cpp.obj	19ce75fef1c8d49a
+1	405	644415477	FileIO/CMakeFiles/FileIO.dir/FileIO.cpp.obj	d654838d0be6221c
+0	278	644415504	FileIO/CMakeFiles/FileIO.dir/main.cpp.obj	19ce75fef1c8d49a
+1	207	644415535	FileIO/FileIO.exe	a7a01464047bad52
+1	366	644415577	FileIO/CMakeFiles/FileIO.dir/main.cpp.obj	19ce75fef1c8d49a
+366	482	644415577	FileIO/FileIO.exe	a7a01464047bad52
+0	385	644415866	FileIO/CMakeFiles/FileIO.dir/main.cpp.obj	19ce75fef1c8d49a
+385	531	644415867	FileIO/FileIO.exe	a7a01464047bad52
+0	377	644415953	FileIO/CMakeFiles/FileIO.dir/main.cpp.obj	19ce75fef1c8d49a
+377	482	644415953	FileIO/FileIO.exe	a7a01464047bad52
+1	285	644415971	FileIO/CMakeFiles/FileIO.dir/main.cpp.obj	19ce75fef1c8d49a
+285	424	644415972	FileIO/FileIO.exe	a7a01464047bad52
+0	296	644416100	FileIO/CMakeFiles/FileIO.dir/main.cpp.obj	19ce75fef1c8d49a
+296	442	644416100	FileIO/FileIO.exe	a7a01464047bad52
+0	280	644416113	FileIO/CMakeFiles/FileIO.dir/main.cpp.obj	19ce75fef1c8d49a
+280	387	644416113	FileIO/FileIO.exe	a7a01464047bad52
+0	286	644416446	FileIO/CMakeFiles/FileIO.dir/main.cpp.obj	19ce75fef1c8d49a
+286	438	644416446	FileIO/FileIO.exe	a7a01464047bad52
+0	563	644417442	FileIO/CMakeFiles/FileIO.dir/main.cpp.obj	19ce75fef1c8d49a
+3	573	644417442	FileIO/CMakeFiles/FileIO.dir/iofuncs.cpp.obj	4f6f511d1f6b3479
+574	711	644417442	FileIO/FileIO.exe	24195cbc042c476d
+1	301	644417480	FileIO/CMakeFiles/FileIO.dir/iofuncs.cpp.obj	4f6f511d1f6b3479
+302	415	644417480	FileIO/FileIO.exe	24195cbc042c476d
