@@ -73,7 +73,7 @@ std::istream& Student::ext(std::istream& in) {
     _fn = new char[strlen(newFn) + 1];
 
     strcpy(_name, newName);
-    strcpy(_name, newFn);
+    strcpy(_fn, newFn);
 
     try {
 

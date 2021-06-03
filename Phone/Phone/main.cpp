@@ -41,10 +41,18 @@ void t2() {
 	delete[] phoneArr;
 }
 
+void t3() {
+	Phone p1;
+
+	std::cin >> p1;
+	std::cout << p1;
+}
+
 int main() {
 
 	//t1();
-	t2();
+	//t2();
+	t3();
 
 	return 0;
 }
