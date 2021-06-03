@@ -69,6 +69,15 @@ void t5() {
 	showOnC("Secret.txt");
 }
 
+void t6() {
+	char fileName[20] = { "Text2.txt" };
+	char msg[30] = { "This is a msg to reverse! :)" };
+
+	writeTo(fileName, msg);
+	reverseTxt(fileName);
+	showOnC(fileName);
+}
+
 int main() {
 
 	//t1();
@@ -79,7 +88,8 @@ int main() {
 
 	//t3();
 	//t4();
-	t5();
+	//t5();
+	t6();
 
 	return 0;
 }

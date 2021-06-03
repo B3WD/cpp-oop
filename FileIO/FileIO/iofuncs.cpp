@@ -5,7 +5,7 @@
 void writeTo(const char* fileName, const char* msg)
 {
 	std::ofstream ofs(fileName);
-	ofs << msg;
+	ofs.write(msg, strlen(msg));
 	ofs.close();
 }
 
@@ -25,11 +25,31 @@ void encrtyptMsg(const char* fileName,  const char* msg)
 	delete[] encMsg;
 }
 
+void reverseTxt(const char* fileName)
+{
+	char msg[1000];
+	char tmp;
+	int sz;
+
+	std::ifstream ifs(fileName);
+	ifs.getline(msg, 1000);
+	ifs.close();
+	sz = strlen(msg);
+
+	for (int i = 0; i < sz / 2; i++) {
+		tmp = msg[i];
+		msg[i] = msg[(sz - 1) - i];
+		msg[(sz - 1) - i] = tmp;
+	}
+
+	writeTo(fileName, msg);
+}
+
 void showOnC(const char* fileName)
 {
-	char msg[20];
+	char msg[1000];
 	std::ifstream ifs(fileName);
 
-	ifs >> msg;
+	ifs.getline(msg, 1000);
 	std::cout << msg;
 }
