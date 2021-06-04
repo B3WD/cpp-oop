@@ -54,6 +54,33 @@ void showOnC(const char* fileName)
 	std::cout << msg;
 }
 
+int countWords(const char* fileName)
+{
+	char fileContents[10000]{ 0 };
+	int i = 0, cnt = 0;
+	bool foundWord = false;
+	char ch;
+
+	std::ifstream ifs(fileName);
+	ifs.getline(fileContents, 10000, EOF);
+	ifs.close();
+
+	do {
+		ch = fileContents[i];
+		// std::cout << ch;
+		if ((ch != ' ' || ch != '\n') && !foundWord) {
+			foundWord = true;
+			cnt++;
+		} else if(ch == ' ') {
+			foundWord = false;
+		}
+
+		i++;
+	} while (ch != '\0');
+
+	return cnt;
+}
+
 void sortEntireFile(const char* in, const char* out)
 {
 	const int maxL = 10000, 
@@ -61,8 +88,8 @@ void sortEntireFile(const char* in, const char* out)
 		      l = 32,  
 		      r = 127;
 	int letterCounts[asciiL] = { 0 };
-	char* loadedFile = new char[maxL]{ 0 };
-	char* sortedFile = new char[maxL]{ 0 };
+	char* loadedFile = new char[maxL] { 0 };
+	char* sortedFile = new char[maxL] { 0 };
 	int i = 0, k = 0, repeats;
 
 	if (out == "") {
@@ -91,4 +118,55 @@ void sortEntireFile(const char* in, const char* out)
 	writeTo(out, sortedFile);
 	delete[] loadedFile;
 	delete[] sortedFile;
+}
+
+void fileTo2DArr(const char* sourceFile, char* *dest)
+{
+	const int maxL = 10000;
+	char* fileContents = new char[maxL];
+	char tmpWordStrg[31]{ 0 };
+	char ch;
+	int i = 0;
+
+	std::ifstream ifs(sourceFile);
+
+	do {
+		ifs >> tmpWordStrg;
+		removeSymbols(tmpWordStrg);
+
+		dest[i] = new char[strlen(tmpWordStrg) + 1];
+		strcpy(dest[i], tmpWordStrg);
+
+		i++;
+	} while (!ifs.eof()); 
+
+	ifs.close();
+}
+
+void removeSymbols(char* word)
+{
+	int i = 0, j = 0;
+	char ch;
+
+	do {
+		ch = word[i];
+		if (('A' <= ch && ch <= 'Z') || ('a' <= ch && ch <= 'z')) {
+			word[j] = ch;
+			j++;
+		}
+		i++;
+
+	} while (ch != '\0');
+	word[j] = '\0';
+}
+
+int sum(int* arr, int sz)
+{
+	int sum = 0;
+	
+	for (int i = 0; i < sz; i++) {
+		sum += arr[i];
+	}
+
+	return sum;
 }

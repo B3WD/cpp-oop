@@ -1,6 +1,8 @@
 #include <iostream>
 #include <fstream>
+
 #include "iofuncs.h"
+#include "HangMan.h"
 
 void t1() {
 	char fileName[20] = { "Hello.txt" };
@@ -20,6 +22,10 @@ void t1() {
 }
 
 void t2() {
+
+	// reading from a file that does not exist,
+	// does noet yield any characters.
+
 	char fileName[20] = { "Hello.txt" };
 	char msg[20];
 
@@ -83,19 +89,26 @@ void t7() {
 	sortEntireFile(fileName, "EnglishSorted.txt");
 }
 
+void t8() {
+	std::cout << "Word coount: " << countWords("EnglishText.txt");
+}
+
+void t9() {
+	HangMan hm("EnglishText.txt");
+	hm.play();
+}
+
 int main() {
 
 	//t1();
-
-	// reading from a file that does not exist,
-	// does noet yield any characters.
 	//t2();
-
 	//t3();
 	//t4();
 	//t5();
 	//t6();
-	t7();
+	//t7();
+	//t8();
+	t9();
 
 	return 0;
 }
