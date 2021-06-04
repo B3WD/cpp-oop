@@ -7,3 +7,5 @@ void encrtyptMsg(const char* fileName, const char* msg);
 void reverseTxt(const char* fileName);
 
 void showOnC(const char* fileName);
+
+void sortEntireFile(const char* fileName, const char* out = "");

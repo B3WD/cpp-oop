@@ -78,6 +78,11 @@ void t6() {
 	showOnC(fileName);
 }
 
+void t7() {
+	char fileName[20] = { "EnglishText.txt" };
+	sortEntireFile(fileName, "EnglishSorted.txt");
+}
+
 int main() {
 
 	//t1();
@@ -89,7 +94,8 @@ int main() {
 	//t3();
 	//t4();
 	//t5();
-	t6();
+	//t6();
+	t7();
 
 	return 0;
 }

@@ -53,3 +53,42 @@ void showOnC(const char* fileName)
 	ifs.getline(msg, 1000);
 	std::cout << msg;
 }
+
+void sortEntireFile(const char* in, const char* out)
+{
+	const int maxL = 10000, 
+			  asciiL = 256, 
+		      l = 32,  
+		      r = 127;
+	int letterCounts[asciiL] = { 0 };
+	char* loadedFile = new char[maxL]{ 0 };
+	char* sortedFile = new char[maxL]{ 0 };
+	int i = 0, k = 0, repeats;
+
+	if (out == "") {
+		out = in;
+	}
+
+	std::ifstream ifs(in);
+	ifs.getline(loadedFile, maxL, EOF);
+	ifs.close();
+
+
+	while (loadedFile[i] > EOF) {
+		letterCounts[loadedFile[i]]++;
+		i++;
+	}
+
+	
+	for (int i = l; i < r; i++) {
+		repeats = letterCounts[i];
+		for (int j = 0; j < repeats; j++) {
+			sortedFile[k] = i;
+			k++;
+		}
+	}
+
+	writeTo(out, sortedFile);
+	delete[] loadedFile;
+	delete[] sortedFile;
+}
