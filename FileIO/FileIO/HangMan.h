@@ -8,6 +8,8 @@ TODO:
 	- starting with some letters revealed
 	- longer words
 
+2. Two word combos.
+
 */
 
 class HangMan {
