@@ -1,5 +1,15 @@
 #pragma once
 
+/*
+TODO:
+
+1. Difficulty settings:
+	- more guesses
+	- starting with some letters revealed
+	- longer words
+
+*/
+
 class HangMan {
 private:
 	char** _words;
