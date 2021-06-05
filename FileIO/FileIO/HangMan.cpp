@@ -6,9 +6,11 @@
 HangMan::HangMan(const char* fileName, int maxTries) : _maxTries(maxTries), _wc(countWords(fileName))
 {
 	_words = new char* [_wc];
-	_guessArr = nullptr;
 
 	fileTo2DArr(fileName, _words);
+
+	chooseWord();
+	_guessArr = new int[strlen(_currWord)]{ 0 };
 }
 
 HangMan::~HangMan()
@@ -16,8 +18,8 @@ HangMan::~HangMan()
 	for (int i = 0; i < _wc; i++) {
 		delete[] _words[i];
 	}
-	delete _words;
-	//delete[] _guessArr;  //for some reason, this pointer cannot be deleted..??
+	delete[] _words;
+	delete[] _guessArr;
 }
 
 void HangMan::loadWords(const char* fileName)
@@ -31,28 +33,26 @@ bool HangMan::guessWord(const char* word)
 
 void HangMan::guessLetter(char letter)
 {
-	int i;
-	do {
-		i = getLetterIndex(letter);
+	int i = getLetterIndex(letter);
+	
+	while (i >= 0) {
 		_guessArr[i] = 1;
-
-	} while (i >= 0);
+		i = getLetterIndex(letter);
+	}
 }
 
-int HangMan::getLetterIndex(char ch)
+int HangMan::getLetterIndex(char ch) const
 {
 	int i = 0;
-	char curCh;
 
-	do {
-		curCh = _currWord[i];
-		if (curCh == ch && _guessArr[i] != 1) {
+	while (_currWord[i] != '\0') {
+		if (_currWord[i] == ch && _guessArr[i] != 1) {
 			break;
 		}
 		i++;
-	} while (curCh != '\0');
+	}
 
-	if (i == strlen(_currWord) + 1) {
+	if (i == strlen(_currWord)) {
 		i = -1;
 	}
 
@@ -63,9 +63,10 @@ void HangMan::chooseWord()
 {
 	srand(time(0));
 	_currWord = _words[rand() % _wc];
+	toLower(_currWord);
 }
 
-void HangMan::printState()
+void HangMan::printState() const
 {
 	int i = 0;
 	char ch;
@@ -82,8 +83,8 @@ void HangMan::printState()
 	} while (ch != '\0');
 }
 
-bool HangMan::checkWinning() {
-
+bool HangMan::checkWinning() const 
+{
 	return sum(_guessArr, strlen(_currWord)) == strlen(_currWord);
 }
 
@@ -91,9 +92,6 @@ void HangMan::play()
 {
 	bool won = false;
 	char* chs = new char[31];
-	chooseWord();
-
-	_guessArr = new int[strlen(_currWord)]{ 0 };
 
 	for (int i = 0; i < _maxTries; i++) {
 		// std::cout << "Cheat active. Word is: " << _currWord << "\n";
@@ -130,5 +128,6 @@ void HangMan::play()
 	else {
 		std::cout << "You lost. Word: " << _currWord << "\n";
 	}
-	
+
+	delete[] chs;
 }

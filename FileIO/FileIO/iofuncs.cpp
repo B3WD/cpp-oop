@@ -122,11 +122,11 @@ void sortEntireFile(const char* in, const char* out)
 
 void fileTo2DArr(const char* sourceFile, char* *dest)
 {
-	const int maxL = 10000;
-	char* fileContents = new char[maxL];
+	const int maxL = 100000;
 	char tmpWordStrg[31]{ 0 };
 	char ch;
-	int i = 0;
+	int i = 0, wc;
+	wc = countWords(sourceFile);
 
 	std::ifstream ifs(sourceFile);
 
@@ -138,7 +138,7 @@ void fileTo2DArr(const char* sourceFile, char* *dest)
 		strcpy(dest[i], tmpWordStrg);
 
 		i++;
-	} while (!ifs.eof()); 
+	} while (i < wc); //ifs.eof()
 
 	ifs.close();
 }
@@ -158,6 +158,18 @@ void removeSymbols(char* word)
 
 	} while (ch != '\0');
 	word[j] = '\0';
+}
+
+void toLower(char* str)
+{
+	int i = 0;
+
+	do {
+		if ('A' <= str[i] && str[i] <= 'Z') {
+			str[i] += 32;
+		}
+		i++;
+	} while (str[i] != '\0');
 }
 
 int sum(int* arr, int sz)

@@ -16,4 +16,6 @@ void fileTo2DArr(const char* sourceFile, char** dest);
 
 void removeSymbols(char* word);
 
+void toLower(char* str);
+
 int sum(int* arr, int sz);

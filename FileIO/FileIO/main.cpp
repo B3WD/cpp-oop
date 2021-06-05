@@ -94,7 +94,8 @@ void t8() {
 }
 
 void t9() {
-	HangMan hm("EnglishText.txt");
+	int tries = 15;
+	HangMan hm("jewellery.txt", tries);
 	hm.play();
 }
 

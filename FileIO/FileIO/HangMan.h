@@ -11,12 +11,13 @@ public:
 	HangMan(const char* fileName = "", int maxTries = 10);
 	~HangMan();
 
+	int getLetterIndex(char ch) const;
+	bool checkWinning() const;
+	void printState() const;
+
 	void loadWords(const char* fileName = "");
-	int getLetterIndex(char ch);
 	bool guessWord(const char* word);
 	void guessLetter(char letter);
-	bool checkWinning();
-	void printState();
 	void chooseWord();
 	void play();
 };
