@@ -2,6 +2,7 @@
 #include <fstream>
 
 #include "CEmployee.h"
+#include "TEmployee.h"
 #include "CProgrammer.h"
 #include "PTask.h"
 
@@ -34,15 +35,15 @@ void t2() {
 int t3() {
 	const int sz = 5;
 	CEmployee** poly_cont = new CEmployee * [sz];
-	PTask p1tasks[2] = { PTask("DB", 1000), PTask("Game", 800) };
 	int maxInd = 0;
 
 	for (int i = 0; i < sz; i++) {
+		PTask p1tasks[2] = { PTask("DB", i*100), PTask("Game", i*200) };
 		if (i & 1) {
 			poly_cont[i] = new CEmployee("Employee", 1000 * i);
 		}
 		else {
-			poly_cont[i] = new CProgrammer("Programmer", 1000 * i, i, 1, 0, 0, p1tasks);
+			poly_cont[i] = new CProgrammer("Programmer", 1000 * i, 100 * i, 1, 0, 10 * i, p1tasks);
 		}
 
 		if (typeid(*poly_cont[i]) == typeid(CProgrammer)) {
@@ -53,6 +54,8 @@ int t3() {
 			}
 		}
 
+		std::cout << *poly_cont[i] << "\n";
+
 	}
 
 	std::ofstream ofs("BestProgrammer.bin", std::ios::binary | std::ios::out);
@@ -62,6 +65,7 @@ int t3() {
 	}
 
 	ofs.write((char*)poly_cont[maxInd], sizeof(CProgrammer));
+	ofs.close(); //!!!!!!!!!!!!!!!!!!!!
 
 	std::ifstream ifs("BestProgrammer.bin", std::ios::binary | std::ios::in);
 	if (!ifs) {
@@ -72,14 +76,31 @@ int t3() {
 	CProgrammer p;
 	ifs.read((char*)&p, sizeof(CProgrammer));
 
-	std::cout << p;
+	std::cout << "Best programmer:\n" << p;
+}
+
+void t4() {
+	TEmployee<int> c1("John Brown", 1234.56, 2014);
+	TEmployee<int> c2;
+	TEmployee<int> c3 = c1;
+	TEmployee<int>* eArr = new TEmployee<int>[10];
+
+	std::cin >> c2;
+	c3 = c2;
+
+	std::cout << c1 << "\n" << c2 << "\n" << c3;
+
+	for (int i = 0; i < 10; i++) {
+		std::cout << "\n" << eArr[i];
+	}
 }
 
 int main() {
 
 	//t1();
 	//t2();
-	t3();
+	//t3();
+	t4();
 
 	return 0;
 }
