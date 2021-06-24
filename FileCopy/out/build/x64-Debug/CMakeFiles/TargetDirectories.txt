@@ -1,0 +1,5 @@
+C:/Users/gerginad/Documents/GitHub/cpp-oop/FileCopy/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/gerginad/Documents/GitHub/cpp-oop/FileCopy/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/gerginad/Documents/GitHub/cpp-oop/FileCopy/out/build/x64-Debug/FileCopy/CMakeFiles/FileCopy.dir
+C:/Users/gerginad/Documents/GitHub/cpp-oop/FileCopy/out/build/x64-Debug/FileCopy/CMakeFiles/edit_cache.dir
+C:/Users/gerginad/Documents/GitHub/cpp-oop/FileCopy/out/build/x64-Debug/FileCopy/CMakeFiles/rebuild_cache.dir
