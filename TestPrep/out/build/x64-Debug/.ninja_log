@@ -1,0 +1,7 @@
+# ninja log v5
+0	307	6462486351206264	TestPrep/CMakeFiles/TestPrep.dir/RangeVar.cpp.obj	53197e473a60a9df
+7	308	6462486351196257	TestPrep/CMakeFiles/TestPrep.dir/Ristream.cpp.obj	463d302d41074e52
+4	313	6462486351276327	TestPrep/CMakeFiles/TestPrep.dir/TraceFun.cpp.obj	39f7a6b82ad3562c
+5	318	6462486351306357	TestPrep/CMakeFiles/TestPrep.dir/CountVar.cpp.obj	9005f3590b95cf84
+2	319	6462486351326371	TestPrep/CMakeFiles/TestPrep.dir/main.cpp.obj	253116a91b027f7e
+319	529	6462486353298168	TestPrep/TestPrep.exe	fd1c42d4e02a02d0

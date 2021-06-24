@@ -1,0 +1,13 @@
+# ninja log v5
+2	399	6462487583825173	Ristream/CMakeFiles/Ristream.dir/Ristream.cpp.obj	ba85764938043549
+0	400	6462487583825173	Ristream/CMakeFiles/Ristream.dir/main.cpp.obj	24fd05c27d80dd33
+401	608	6462487585786957	Ristream/Ristream.exe	e570ac2b16c9a559
+1	676	6462499005794585	Ristream/CMakeFiles/Ristream.dir/main.cpp.obj	24fd05c27d80dd33
+3	678	6462499005804593	Ristream/CMakeFiles/Ristream.dir/Ristream.cpp.obj	ba85764938043549
+679	844	6462499007205869	Ristream/Ristream.exe	e570ac2b16c9a559
+0	384	6462499907027123	Ristream/CMakeFiles/Ristream.dir/Ristream.cpp.obj	ba85764938043549
+385	487	6462499907867896	Ristream/Ristream.exe	e570ac2b16c9a559
+0	350	6462500319125780	Ristream/CMakeFiles/Ristream.dir/main.cpp.obj	24fd05c27d80dd33
+351	455	6462500320006582	Ristream/Ristream.exe	e570ac2b16c9a559
+1	283	6462500482133953	Ristream/CMakeFiles/Ristream.dir/main.cpp.obj	24fd05c27d80dd33
+283	379	6462500482914662	Ristream/Ristream.exe	e570ac2b16c9a559

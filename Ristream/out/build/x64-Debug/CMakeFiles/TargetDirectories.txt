@@ -1,0 +1,5 @@
+C:/Users/gerginad/Documents/GitHub/cpp-oop/Ristream/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/gerginad/Documents/GitHub/cpp-oop/Ristream/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/gerginad/Documents/GitHub/cpp-oop/Ristream/out/build/x64-Debug/Ristream/CMakeFiles/Ristream.dir
+C:/Users/gerginad/Documents/GitHub/cpp-oop/Ristream/out/build/x64-Debug/Ristream/CMakeFiles/edit_cache.dir
+C:/Users/gerginad/Documents/GitHub/cpp-oop/Ristream/out/build/x64-Debug/Ristream/CMakeFiles/rebuild_cache.dir

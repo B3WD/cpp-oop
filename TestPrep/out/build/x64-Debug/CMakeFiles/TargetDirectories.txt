@@ -1,0 +1,5 @@
+C:/Users/gerginad/Documents/GitHub/cpp-oop/TestPrep/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/gerginad/Documents/GitHub/cpp-oop/TestPrep/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/gerginad/Documents/GitHub/cpp-oop/TestPrep/out/build/x64-Debug/TestPrep/CMakeFiles/TestPrep.dir
+C:/Users/gerginad/Documents/GitHub/cpp-oop/TestPrep/out/build/x64-Debug/TestPrep/CMakeFiles/edit_cache.dir
+C:/Users/gerginad/Documents/GitHub/cpp-oop/TestPrep/out/build/x64-Debug/TestPrep/CMakeFiles/rebuild_cache.dir

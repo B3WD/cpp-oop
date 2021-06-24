@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/gerginad/Documents/GitHub/cpp-oop/TestPrep/out/build/x64-Debug/TestPrep/CMakeFiles/TestPrep.dir/embed.manifest"
