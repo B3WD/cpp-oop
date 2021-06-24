@@ -1,0 +1,25 @@
+# ninja log v5
+0	656	644833075	FinalTest/CMakeFiles/FinalTest.dir/main.cpp.obj	f603c859807cdc45
+3	660	644833075	FinalTest/CMakeFiles/FinalTest.dir/Vehicle.cpp.obj	15a2bb483fb14fd5
+660	902	644833076	FinalTest/FinalTest.exe	d8d58986170a729e
+1	636	644834387	FinalTest/CMakeFiles/FinalTest.dir/main.cpp.obj	f603c859807cdc45
+3	661	644834387	FinalTest/CMakeFiles/FinalTest.dir/Bus.cpp.obj	74d134652542b40d
+661	788	644834387	FinalTest/FinalTest.exe	118867d086770b8e
+1	280	644834413	FinalTest/CMakeFiles/FinalTest.dir/Bus.cpp.obj	74d134652542b40d
+280	381	644834413	FinalTest/FinalTest.exe	118867d086770b8e
+0	380	644834478	FinalTest/CMakeFiles/FinalTest.dir/main.cpp.obj	f603c859807cdc45
+3	381	644834478	FinalTest/CMakeFiles/FinalTest.dir/Bus.cpp.obj	74d134652542b40d
+381	490	644834478	FinalTest/FinalTest.exe	118867d086770b8e
+0	585	644835134	FinalTest/CMakeFiles/FinalTest.dir/main.cpp.obj	f603c859807cdc45
+585	751	644835134	FinalTest/FinalTest.exe	118867d086770b8e
+3	386	644835212	FinalTest/CMakeFiles/FinalTest.dir/Bus.cpp.obj	74d134652542b40d
+0	407	644835212	FinalTest/CMakeFiles/FinalTest.dir/main.cpp.obj	f603c859807cdc45
+407	514	644835212	FinalTest/FinalTest.exe	118867d086770b8e
+0	396	644835325	FinalTest/CMakeFiles/FinalTest.dir/main.cpp.obj	f603c859807cdc45
+396	550	644835325	FinalTest/FinalTest.exe	118867d086770b8e
+1	601	644836630	FinalTest/CMakeFiles/FinalTest.dir/main.cpp.obj	f603c859807cdc45
+0	271	644836647	FinalTest/CMakeFiles/FinalTest.dir/Bus.cpp.obj	74d134652542b40d
+271	393	644836647	FinalTest/FinalTest.exe	118867d086770b8e
+3	390	644837148	FinalTest/CMakeFiles/FinalTest.dir/Bus.cpp.obj	74d134652542b40d
+0	395	644837148	FinalTest/CMakeFiles/FinalTest.dir/main.cpp.obj	f603c859807cdc45
+396	553	644837148	FinalTest/FinalTest.exe	118867d086770b8e

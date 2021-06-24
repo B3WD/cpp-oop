@@ -1,0 +1,5 @@
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/KRTest/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/KRTest/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/KRTest/out/build/x64-Debug (default)/KRTest/CMakeFiles/KRTest.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/KRTest/out/build/x64-Debug (default)/KRTest/CMakeFiles/edit_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/KRTest/out/build/x64-Debug (default)/KRTest/CMakeFiles/rebuild_cache.dir
