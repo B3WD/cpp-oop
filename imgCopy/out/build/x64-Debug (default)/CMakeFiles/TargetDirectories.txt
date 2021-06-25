@@ -1,0 +1,5 @@
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/imgCopy/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/imgCopy/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/imgCopy/out/build/x64-Debug (default)/imgCopy/CMakeFiles/imgCopy.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/imgCopy/out/build/x64-Debug (default)/imgCopy/CMakeFiles/edit_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/imgCopy/out/build/x64-Debug (default)/imgCopy/CMakeFiles/rebuild_cache.dir
