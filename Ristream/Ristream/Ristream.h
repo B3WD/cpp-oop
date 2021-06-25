@@ -10,9 +10,13 @@ private:
 
 public:
 	Ristream(int sz = 0, bool ws = false);
+	~Ristream();
 
 	void genNew();
 	void genNew(int sz, bool ws);
+
+	Ristream& operator>>(char* rhs);
+	//Ristream& operator>>(int rhs);
 
 	std::ostream& ins(std::ostream& out) const;
 };

@@ -1,0 +1,5 @@
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/Ristream/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/Ristream/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/Ristream/out/build/x64-Debug (default)/Ristream/CMakeFiles/Ristream.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/Ristream/out/build/x64-Debug (default)/Ristream/CMakeFiles/edit_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/Ristream/out/build/x64-Debug (default)/Ristream/CMakeFiles/rebuild_cache.dir

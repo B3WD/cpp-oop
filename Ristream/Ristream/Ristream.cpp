@@ -3,9 +3,14 @@
 
 #include "Ristream.h"
 
-Ristream::Ristream(int sz, bool ws) : _sz(sz), _data(new char[sz + 1]), _ws(ws)
+Ristream::Ristream(int sz, bool ws) : _sz(sz), _data(new char[_sz + 1]), _ws(ws)
 {
 	genNew();
+}
+
+Ristream::~Ristream()
+{
+	delete[] _data;
 }
 
 void Ristream::genNew()
@@ -28,6 +33,14 @@ void Ristream::genNew(int sz, bool ws)
 	_data = new char[_sz + 1];
 
 	genNew();
+}
+
+Ristream& Ristream::operator>>(char* rhs)
+{
+	strcpy(rhs, _data);
+	genNew();
+
+	return *this;
 }
 
 std::ostream& Ristream::ins(std::ostream& out) const
