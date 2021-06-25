@@ -8,7 +8,7 @@ Ristream2::Ristream2(int sz, bool ws) : _sz(sz), _ws(ws) {  }
 
 Ristream2::~Ristream2() {  }
 
-void Ristream2::fillCharArr(char* arr) {
+void Ristream2::fillCharArr(char* arr) const {
 	srand(time(0));
 
 	for (int i = 0; i < _sz; i++) {
@@ -18,6 +18,25 @@ void Ristream2::fillCharArr(char* arr) {
 	arr[_sz] = '\0';
 }
 
+unsigned Ristream2::genUnsignedIntNdigits() const
+{
+	srand(time(0));
+
+	return rand() % int(std::pow(10, _sz) - pow(10, _sz - 1) - 1) + pow(10, _sz - 1);
+}
+
+int Ristream2::genSignedIntNdigits() const
+{
+	srand(time(0));
+	int num = genUnsignedIntNdigits();
+
+	if (rand() % 2 == 0) {
+		num *= -1;
+	}
+
+	return num;
+}
+
 Ristream2& Ristream2::operator>>(char* rhs)
 {
 	fillCharArr(rhs);
@@ -25,10 +44,16 @@ Ristream2& Ristream2::operator>>(char* rhs)
 	return *this;
 }
 
+Ristream2& Ristream2::operator>>(unsigned& rhs)
+{
+	rhs = genUnsignedIntNdigits();
+
+	return *this;
+}
+
 Ristream2& Ristream2::operator>>(int& rhs)
 {
-	srand(time(0));
-	rhs = rand() % int(std::pow(10, _sz) - pow(10, _sz - 1) - 1) + pow(10, _sz - 1);
+	rhs = genSignedIntNdigits();
 
 	return *this;
 }

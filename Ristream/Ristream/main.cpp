@@ -14,7 +14,7 @@ void t1() {
 	// every instance, so the variables look
 	// identical. If the program is run step
 	// by step, introducing some time between
-	// calls the "randomnessness" comes back.
+	// calls, the "randomnessness" comes back.
 
 	Ristream(sz) >> msg >> msg2;
 	std::cout << msg << "\t" << msg2 << "\n";
