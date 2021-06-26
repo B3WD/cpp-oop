@@ -1,0 +1,16 @@
+# ninja log v5
+1	275	646440241	simpleTemplates/CMakeFiles/simpleTemplates.dir/simpleTemplates.cpp.obj	365950fbbc945340
+275	499	646440241	simpleTemplates/simpleTemplates.exe	53fb988fba6d1e47
+0	376	646440514	simpleTemplates/CMakeFiles/simpleTemplates.dir/simpleTemplates.cpp.obj	365950fbbc945340
+0	368	646440536	simpleTemplates/CMakeFiles/simpleTemplates.dir/simpleTemplates.cpp.obj	365950fbbc945340
+0	370	646440615	simpleTemplates/CMakeFiles/simpleTemplates.dir/simpleTemplates.cpp.obj	365950fbbc945340
+3	372	646440615	simpleTemplates/CMakeFiles/simpleTemplates.dir/main.cpp.obj	8cd3b2b8fd16056
+372	516	646440615	simpleTemplates/simpleTemplates.exe	8a30d9613ab7da86
+0	387	646440795	simpleTemplates/CMakeFiles/simpleTemplates.dir/simpleTemplates.cpp.obj	365950fbbc945340
+2	387	646440795	simpleTemplates/CMakeFiles/simpleTemplates.dir/main.cpp.obj	8cd3b2b8fd16056
+387	509	646440795	simpleTemplates/simpleTemplates.exe	8a30d9613ab7da86
+0	262	646440820	simpleTemplates/CMakeFiles/simpleTemplates.dir/simpleTemplates.cpp.obj	365950fbbc945340
+3	276	646440820	simpleTemplates/CMakeFiles/simpleTemplates.dir/main.cpp.obj	8cd3b2b8fd16056
+276	386	646440820	simpleTemplates/simpleTemplates.exe	8a30d9613ab7da86
+1	631	646441617	simpleTemplates/CMakeFiles/simpleTemplates.dir/main.cpp.obj	8cd3b2b8fd16056
+632	761	646441617	simpleTemplates/simpleTemplates.exe	29e5423386c67417

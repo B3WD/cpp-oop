@@ -1,0 +1,5 @@
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/simpleTemplates/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/simpleTemplates/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/simpleTemplates/out/build/x64-Debug (default)/simpleTemplates/CMakeFiles/simpleTemplates.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/simpleTemplates/out/build/x64-Debug (default)/simpleTemplates/CMakeFiles/edit_cache.dir
+C:/Users/Tsets0/my-stuff/GitHub/cpp-oop/simpleTemplates/out/build/x64-Debug (default)/simpleTemplates/CMakeFiles/rebuild_cache.dir
