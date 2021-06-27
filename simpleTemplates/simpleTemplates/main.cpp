@@ -2,6 +2,7 @@
 
 #include "simpleTemplates.h"
 #include "Pair.h"
+#include "Matrix.h"
 
 void t1() {
 	const int sz = 5;
@@ -20,10 +21,18 @@ void t2() {
 	pair1.print();
 }
 
+void t3() {
+	Matrix<double, 3, 5> m1;
+
+	std::cout << "\n";
+	m1.print();
+}
+
 int main()
 {
 	t1();
 	t2();
+	t3();
 
 	return 0;
 }
