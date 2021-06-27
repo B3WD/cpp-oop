@@ -4,6 +4,7 @@
 #include "Pair.h"
 #include "Matrix.h"
 #include "Set.h"
+#include "Dice.h"
 
 void t1() {
 	const int sz = 5;
@@ -50,12 +51,24 @@ void t4() {
 
 }
 
+void t5() {
+	Dice<char, 6> d1(65);
+	Dice<int, 6> d2;
+
+	d1.roll();
+	d2.roll();
+	std::cout << "\n" << d1;
+	std::cout << "\n" << d2;
+
+}
+
 int main()
 {
 	t1();
 	t2();
 	t3();
 	t4();
+	t5();
 
 	return 0;
 }
