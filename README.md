@@ -5,6 +5,7 @@ These programs where created on my journey to learn object-oriented programming 
 
 ## Notable mini-projects
 * HangMan - A simple game of "guess the word". The repository of words can be created from any text file. This makes it easy to play within a certain theme. For example, a text about exotic gems, will cater a different experience, to a text about programming. 
+![HangMan](https://imgur.com/oZLwjVu.png)
 
 * sortEntireFile - Fun function that sorts an entire text file. The results look quite amusing.
 ![txtSorted](https://imgur.com/ibcmiZw.png)
