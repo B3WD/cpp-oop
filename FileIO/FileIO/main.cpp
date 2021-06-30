@@ -95,7 +95,7 @@ void t8() {
 
 void t9() {
 	int tries = 15;
-	HangMan hm("mc.txt", tries);
+	HangMan hm("gems.txt", tries);
 	hm.play();
 }
 
